@@ -43,7 +43,7 @@ a:focus {
 }
 
 #about a {
-    color: rgba(52, 52, 52, .7);
+    color: rgba(102, 102, 102, .7);
 }
 
 #about a:hover,
@@ -337,9 +337,23 @@ header .header-content .header-content-inner p {
     margin: 0 auto 20px;
 }
 
-.text-primary {
-    color: #f05f40;
+.col-lg-3 {
+    color: #005189;
+    opacity: 0.7;
+    font-size: 15px;
+    transition: 0.5s;
+    margin-bottom: 10%;
+    height: 200px;
 }
+
+
+.col-lg-3:hover {
+    color: #4d4dff;
+    opacity: 1;
+    font-size: 35px;
+}
+
+
 
 .no-gutter > [class*=col-] {
     padding-right: 0;
@@ -500,13 +514,15 @@ body {
     text-align: justify;
 }
 
-.skill-bar {
-    margin-top: 50px;
-}
 
 .my-avatar {
     width:30%;
     border-radius: 100%;
     box-shadow: 10px 10px 20px #000;
+
+}
+
+.headline-services {
+    margin-top: 100px;
 
 }

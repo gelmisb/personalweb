@@ -63,6 +63,27 @@ googleAnalytics = ""
 		description = "[Lorem]"
 		buttonText  = "Am I able to?"
 
+#
+#        [[params.services.list]]
+#            icon = "fal fa-mobile-android-alt"
+#            title = "Junior Web Developer"
+#            description = "AngularJS, AngularJS2, JS, Ember.JS, jQuery, PHP, IBM Watson integration"
+#
+#        [[params.services.list]]
+#			icon = "fab fa-android"
+#			title = "Android Full-stack Developer"
+#			description = "Java, Kotlin, IBM Watson integration"
+#
+#		[[params.services.list]]
+#            icon = "ab fa-connectdevelop"
+#            title = "Software Developer"
+#            description = "PHP, Python, Java, C#"
+#
+#        [[params.services.list]]
+#            icon = "fa-heart"
+#            title = "Made with Love"
+#            description = "You have to make your websites with love these days!"
+
 
 	# Service section
 	[params.services]
@@ -76,17 +97,34 @@ googleAnalytics = ""
         [[params.services.list]]
 			icon = "fa-paper-plane"
 			title = "Quick and punctual"
-			description = "Quick and efficient development."
+			description = "Efficient project development."
 
 		[[params.services.list]]
-            icon = "fa-newspaper-o"
-            title = "Up to Date"
-            description = "We update dependencies to keep things fresh."
+            icon = "fab fa-angellist"
+            title = "Friendly"
+            description = "Easy to work with."
 
         [[params.services.list]]
-            icon = "fa-heart"
-            title = "Made with Love"
-            description = "You have to make your websites with love these days!"
+            icon = "fas fa-briefcase"
+            title = "Adaptable"
+            description = "Quick to adapting to new environments"
+
+        headline2 = "I work in different environments"
+
+        [[params.services.list2]]
+            icon = "fal fa-at"
+            title = "Junior Web Developer"
+            description = "AngularJS, AngularJS2, JS, Ember.JS, jQuery, PHP, IBM Watson integration"
+
+        [[params.services.list2]]
+			icon = "fab fa-android"
+			title = "Android Full-stack Developer"
+			description = "Java, Kotlin, IBM Watson integration"
+
+		[[params.services.list2]]
+            icon = "ab fa-connectdevelop"
+            title = "Software Developer"
+            description = "PHP, Python, Java, C#"
 
 
     # Portfolio modals
