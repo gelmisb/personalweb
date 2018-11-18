@@ -17,7 +17,7 @@
             {{ with .Site.Params.hero.slogan }}
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-            <img src="avatar.jpg"  width="30%" style="border-radius: 100%; box-shadow: 15px 15px 15px #101010"/>
+            <img class="my-avatar" src="avatar.jpg" alt="Avatar of Gelmis"/>
             <h1>{{ . | markdownify  }}</h1>
             {{ end }}
             {{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle }}

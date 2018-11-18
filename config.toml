@@ -43,14 +43,14 @@ googleAnalytics = ""
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Hi, I'm Gelmis."
 		subtitle   = "a"
-		buttonText = "Scroll"
+		buttonText = "More"
 
         [params.social]
             GitHub = "xxoo"
             Twitter = "xxoo"
             Email   = "xxoo"
             Instagram = "xxoo"
-            Wechat = "xxoo"  # Wechat QRcode image
+            Wechat = "xxoo"
             Facebook = "xxoo"
             Telegram = "xxoo"
             Dribbble = "xxoo"
@@ -59,9 +59,9 @@ googleAnalytics = ""
 
 	# About section
 	[params.about]
-		headline    = "We've got what you need!"
-		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-		buttonText  = "Get started!"
+		headline    = "We"
+		description = "[Lorem]"
+		buttonText  = "Am I able to?"
 
 
 	# Service section
@@ -70,13 +70,13 @@ googleAnalytics = ""
 
         [[params.services.list]]
             icon = "fa-diamond"
-            title = "Sturdy Templates"
-            description = "Our templates are updated regularly so they don't break."
+            title = "Fine work"
+            description = "Projects are refined to the point that the client is too happy."
 
         [[params.services.list]]
 			icon = "fa-paper-plane"
-			title = "Ready to Ship"
-			description = "You can use this theme as is, or you can make changes!"
+			title = "Quick and punctual"
+			description = "Quick and efficient development."
 
 		[[params.services.list]]
             icon = "fa-newspaper-o"

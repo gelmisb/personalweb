@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a6ac06-3f4c-4dc6-9afc-23974d822ac6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/back1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/back2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/Kanit-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/Kanit-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/Kanit-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/Kanit-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/Kanit-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/back1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/back2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layouts/partials/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layouts/partials/hero.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/hero.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/assets/js/js/vendor_main.js_d3f53f09220d597dac26fe7840c31fc9.content" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/assets/js/js/vendor_main.js_d3f53f09220d597dac26fe7840c31fc9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/assets/js/js/vendor_no_gallery.js_d3f53f09220d597dac26fe7840c31fc9.content" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/assets/js/js/vendor_no_gallery.js_d3f53f09220d597dac26fe7840c31fc9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/assets/scss/css/main.scss_b95b077eb505d5c0aff8055eaced30ad.content" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/assets/scss/css/main.scss_b95b077eb505d5c0aff8055eaced30ad.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/creative.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/creative.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,7 +92,7 @@
           <entry key="otf" value="1" />
           <entry key="png" value="2" />
           <entry key="svg" value="1" />
-          <entry key="toml" value="1" />
+          <entry key="toml" value="2" />
           <entry key="ttf" value="1" />
           <entry key="vmoptions" value="1" />
           <entry key="yaml" value="3" />
@@ -124,35 +107,44 @@
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SVG" value="1" />
-          <entry key="TOML file" value="1" />
+          <entry key="TOML file" value="2" />
           <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="99" />
-          <entry key="html" value="65" />
-          <entry key="toml" value="17" />
+          <entry key="css" value="138" />
+          <entry key="html" value="125" />
+          <entry key="toml" value="233" />
           <entry key="vmoptions" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="99" />
-          <entry key="HTML" value="65" />
+          <entry key="CSS" value="138" />
+          <entry key="HTML" value="125" />
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="TOML file" value="17" />
+          <entry key="TOML file" value="233" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config.toml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="78" column="59" selection-start-line="78" selection-start-column="59" selection-end-line="78" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/partials/hero.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="162" column="3" selection-start-line="162" selection-start-column="3" selection-end-line="162" selection-end-column="3" />
+            <state relative-caret-position="544">
+              <caret line="32" column="70" lean-forward="true" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -160,15 +152,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/partials/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="612">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/hugo-creative-theme/exampleSite/data/projects/2014-07-05-project-1.yaml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -181,11 +168,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/creative.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+            <state relative-caret-position="569">
+              <caret line="418" column="29" selection-start-line="418" selection-start-column="29" selection-end-line="418" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -198,7 +185,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/partials/services.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="476">
               <caret line="28" column="28" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#section#0;n#!!top" expanded="true" />
@@ -227,6 +214,7 @@
     <findStrings>
       <find>icon</find>
       <find>social</find>
+      <find>avatar</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -248,12 +236,12 @@
         <option value="$PROJECT_DIR$/assets/css/_custom.scss" />
         <option value="$PROJECT_DIR$/themes/LeaveIt/layouts/partials/wechat.html" />
         <option value="$PROJECT_DIR$/static/css/animate.min.css" />
-        <option value="$PROJECT_DIR$/config.toml" />
         <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
-        <option value="$PROJECT_DIR$/layouts/partials/hero.html" />
-        <option value="$PROJECT_DIR$/layouts/partials/about.html" />
         <option value="$PROJECT_DIR$/layouts/partials/services.html" />
+        <option value="$PROJECT_DIR$/layouts/partials/hero.html" />
         <option value="$PROJECT_DIR$/static/css/creative.css" />
+        <option value="$PROJECT_DIR$/layouts/partials/about.html" />
+        <option value="$PROJECT_DIR$/config.toml" />
       </list>
     </option>
   </component>
@@ -319,43 +307,7 @@
             <path>
               <item name="personalweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="personalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personalweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="_gen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personalweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="_gen" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personalweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personalweb" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personalweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personalweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personalweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -368,7 +320,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542576900972" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542578078797" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -409,12 +361,12 @@
       <updated>1542365920945</updated>
       <workItem from="1542365923126" duration="12730000" />
       <workItem from="1542386533455" duration="3720000" />
-      <workItem from="1542574768548" duration="2069000" />
+      <workItem from="1542574768548" duration="3299000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18519000" />
+    <option name="totallyTimeSpent" value="19749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -589,13 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="72" column="37" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/hugo-creative-theme/images/tn.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -625,13 +570,6 @@
     <entry file="file://$PROJECT_DIR$/.gitmodules">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/hero.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="162" column="3" selection-start-line="162" selection-start-column="3" selection-end-line="162" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/hugo-creative-theme/exampleSite/data/projects/2014-07-05-project-1.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -650,16 +588,30 @@
     <entry file="file://$PROJECT_DIR$/layouts/partials/location.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/creative.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="418" column="29" selection-start-line="418" selection-start-column="29" selection-end-line="418" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/hero.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="70" lean-forward="true" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="612">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/services.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="476">
           <caret line="28" column="28" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="28" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#section#0;n#!!top" expanded="true" />
@@ -671,10 +623,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/creative.css">
+    <entry file="file://$PROJECT_DIR$/config.toml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+        <state relative-caret-position="612">
+          <caret line="78" column="59" selection-start-line="78" selection-start-column="59" selection-end-line="78" selection-end-column="59" />
         </state>
       </provider>
     </entry>

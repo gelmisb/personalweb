@@ -68,7 +68,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #007caf;
+    background-color: #15191a;
 }
 
 .bg-dark {
@@ -402,7 +402,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary {
     border-color: #f05f40;
     color: #fff;
-    background-color: #f05f40;
+    background-color: #0079ae;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -416,7 +416,7 @@ fieldset[disabled] .btn-default.active {
 .open > .dropdown-toggle.btn-primary {
     border-color: #ed431f;
     color: #fff;
-    background-color: #ee4b28;
+    background-color: #005189;
 }
 
 .btn-primary:active,
@@ -444,7 +444,7 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
     border-color: #f05f40;
-    background-color: #f05f40;
+    background-color: #0079ae;
 }
 
 .btn-primary .badge {
@@ -496,10 +496,17 @@ body {
     position: relative;
 }
 
-#text-faded {
+.text-faded {
     text-align: justify;
 }
 
 .skill-bar {
     margin-top: 50px;
+}
+
+.my-avatar {
+    width:30%;
+    border-radius: 100%;
+    box-shadow: 10px 10px 20px #000;
+
 }
