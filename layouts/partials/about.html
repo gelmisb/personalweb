@@ -1,0 +1,41 @@
+{{ "<!-- ABOUT -->" | safeHTML }}
+<section class="bg-primary" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                {{ with .Site.Params.about.headline }}
+                    <h2 class="section-heading">Bit about me</h2>
+                {{ end }}
+                {{ if and .Site.Params.about.headline .Site.Params.about.description }}
+                    <hr class="light">
+                {{ end }}
+                {{ with .Site.Params.about.description }}
+                <div id="container">
+
+                <p class="text-faded">
+
+                    Recent BSc. (Hons) graduate in Computer science. I mainly focus on Artificial Intelligence, Android and Software development. I've worked as an Optical assistant in <a target="_blank"  href="https://www.visionexpress.ie">Vision Express</a> for 4 years as I went through my college degree.
+
+                    <br>
+                    <br>
+
+                    After I graduated, I was invited into a <a target="_blank" href="http://www.fungramkb.com/events/2018/index.html">International Conference on meaning and knowledge representation</a>, to represent my BSc (Hons) reserach, that I've been preparing for a year's time. After the conference, I was given an <a target="_blank" href="https://twitter.com/ggrayitb/status/1002586079072014336">award</a> for the best project using IBM technologies. You can see my project <a target="_blank" href="https://github.com/gelmisb/chatbot-watson-android">here</a>, or you can read about it <a target="_blank" href="http://itbrecursion.com/wp-content/uploads/2018/05/ITB_RECURSION_2018_WEB.pdf">here</a> as well!
+
+                    <br>
+                    <br>
+
+                    That's my brief history! And now, at the very moment I am freelancing and writing projects for Android and Web.
+                </p>
+
+            </div>
+
+
+
+                {{ end }}
+                {{ with .Site.Params.about.buttonText }}
+                    <a href="#" class="btn btn-default btn-xl">{{ . }}</a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,21 @@
+[submodule "themes/ananke;"]
+	path = "themes/ananke;"
+	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "themes/meghna-hugo"]
+	path = themes/meghna-hugo
+	url = https://github.com/themefisher/meghna-hugo
+[submodule "themes/infinity-hugo"]
+	path = themes/infinity-hugo
+	url = https://github.com/themefisher/infinity-hugo
+[submodule "themes/hugo-coder"]
+	path = themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "themes/LeaveIt"]
+	path = themes/LeaveIt
+	url = https://github.com/liuzc/LeaveIt.git
+[submodule "themes/hugo-creative-theme"]
+	path = themes/hugo-creative-theme
+	url = https://github.com/digitalcraftsman/hugo-creative-theme

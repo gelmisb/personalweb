@@ -1,0 +1,163 @@
+{{ "<!-- HEADER -->" | safeHTML }}
+<header>
+    <div class="social-links">
+        {{ partial "social.html" . }}
+    </div>
+
+    <div class="header-content">
+
+
+        <!-- The video -->
+
+        <div class="header-content-inner">
+            {{ with .Site.Params.hero.slogan }}
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+            <img src="avatar.jpg"  width="30%" style="border-radius: 100%; box-shadow: 15px 15px 15px #101010"/>
+            <h1>{{ . | markdownify  }}</h1>
+            {{ end }}
+            {{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle }}
+            <hr>
+            {{ end }}
+            {{ with .Site.Params.hero.subtitle }}
+
+
+
+
+            {{ end }}
+            {{ with .Site.Params.hero.buttonText }}
+            <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ . }}</a>
+            {{ end }}
+
+
+        </div>
+    </div>
+</header>
+<video autoplay muted class="video-bg">
+    <source src="videos/intro.mp4" type="video/mp4">
+</video>
+
+<style>
+    #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: 9999;
+    }
+
+
+
+    @keyframes fade-in {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-moz-keyframes fade-in { /* Firefox */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-webkit-keyframes fade-in { /* Safari and Chrome */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-o-keyframes fade-in { /* Opera */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity: 1;
+        }
+    }​
+    @keyframes fade-out {
+        from {
+            opacity:1;
+        }
+        to {
+            opacity:0;
+        }
+    }
+    @-moz-keyframes fade-out { /* Firefox */
+        from {
+            opacity:1;
+        }
+        to {
+            opacity:0;
+        }
+    }
+    @-webkit-keyframes fade-out { /* Safari and Chrome */
+        from {
+            opacity:1;
+        }
+        to {
+            opacity:0;
+        }
+    }
+    @-o-keyframes fade-out { /* Opera */
+        from {
+            opacity:1;
+        }
+        to {
+            opacity: 0;
+        }
+    }
+
+    html, body{
+        height: 100%;
+    }
+
+
+    header{
+        position: relative;
+        overflow: auto;
+        min-height: 100%;
+        width:100%;
+        height:auto !important;
+        background-image: url(https://static.pexels.com/photos/327308/pexels-photo-327308.jpeg);
+        background-attachment: fixed;
+        background-repeat:no-repeat;
+        background-size: cover;
+        overflow:hidden;
+    }
+
+    header .header_container{
+        bottom: 0px;
+        height: 100%;
+        width: 100%;
+        min-height: 100%;
+    }
+
+    .video-bg {
+        position: absolute;
+        right: 0;
+        top: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        display: block;
+
+        opacity: 1;
+
+        -moz-animation: fade-out 3s ease-in forwards; /* Firefox */
+        -webkit-animation: fade-out 3s ease-in forwards; /* Safari and Chrome */
+        -o-animation: fade-out 3s ease-in forwards; /* Opera */
+        animation: fade-out 3s ease-in forwards;
+        -moz-animation-delay: 7s;
+        -webkit-animation-delay: 7s;
+        -o-animation-delay: 7s;
+        animation-delay: 7s;
+    }
+</style>

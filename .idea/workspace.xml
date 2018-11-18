@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1a6ac06-3f4c-4dc6-9afc-23974d822ac6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/personalHugo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archetypes/.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archetypes/default.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/_common/_core/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/_common/_core/layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/_common/_core/media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/_common/_core/normalize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/_common/_page/home.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/_common/_page/home_post.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/_common/_page/post.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/_common/_page/tags.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/_common/_page/terms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/_common/_prettyprint/default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/_common/_section/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/_common/_section/navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/_common/_section/pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/_custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/_variables/default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/dynamic.to.top.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/lazysizes.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/lightGallery-all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/lightGallery-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/prettify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/about.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/creating-a-new-theme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/goisforlovers.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/hugoisforlovers.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/migrate-from-jekyll.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/news/0.43-relnotes/featured-hugo-43-poster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/news/0.43-relnotes/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/news/0.44-relnotes/featured-hugo-44-poster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/news/0.44-relnotes/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/news/0.45-relnotes/featured-hugo-45-poster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/news/0.45-relnotes/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/news/0.45.1-relnotes/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/news/0.46-relnotes/featured-hugo-46-poster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/news/0.46-relnotes/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/news/0.47-relnotes/featured-hugo-47-poster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/news/0.47-relnotes/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/news/0.47.1-relnotes/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/news/0.48-relnotes/featured-hugo-48-poster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/news/0.48-relnotes/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/news/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/news/http2-server-push-in-hugo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/projects/2014-07-05-project-1.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/projects/2014-07-06-project-2.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/projects/2014-07-07-project-3.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/projects/2014-07-08-project-5.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/projects/2014-07-09-project-4.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/projects/2014-07-10-project-6.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/home_post_mode.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/partials/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/partials/aside.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/partials/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/partials/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/partials/hero.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/partials/js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/partials/location.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/partials/modals.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/partials/nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/partials/portfolio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/partials/services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/partials/social.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/assets/js/js/vendor_main.js_d3f53f09220d597dac26fe7840c31fc9.content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/assets/js/js/vendor_main.js_d3f53f09220d597dac26fe7840c31fc9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/assets/js/js/vendor_no_gallery.js_d3f53f09220d597dac26fe7840c31fc9.content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/assets/js/js/vendor_no_gallery.js_d3f53f09220d597dac26fe7840c31fc9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/assets/scss/css/main.scss_b95b077eb505d5c0aff8055eaced30ad.content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/assets/scss/css/main.scss_b95b077eb505d5c0aff8055eaced30ad.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/js/js/vendor_main.js_d3f53f09220d597dac26fe7840c31fc9.content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/js/js/vendor_main.js_d3f53f09220d597dac26fe7840c31fc9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/js/js/vendor_no_gallery.js_d3f53f09220d597dac26fe7840c31fc9.content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/js/js/vendor_no_gallery.js_d3f53f09220d597dac26fe7840c31fc9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/css/main.scss_b95b077eb505d5c0aff8055eaced30ad.content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/css/main.scss_b95b077eb505d5c0aff8055eaced30ad.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/scss/coder.scss_5e1eb8e37c42cdfb6215b61e44dcfa5f.content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/scss/coder.scss_5e1eb8e37c42cdfb6215b61e44dcfa5f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/creative.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/modals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/marker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/portfolio/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/portfolio/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/portfolio/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/portfolio/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/portfolio/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/portfolio/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/cbpAnimatedHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/classie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/creative.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/gmaps.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/hpneo.gmaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery.fittext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/videos/intro.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/videos/intro.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/videos/intro.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/archetypes/default.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_core/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_core/layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_core/media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_core/normalize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_page/home.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_page/home_post.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_page/post.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_page/tags.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_page/terms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_prettyprint/default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_section/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_section/navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_section/pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/css/_custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/css/_variables/default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/css/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/font/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/font/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/font/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/js/dynamic.to.top.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/js/lazysizes.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/js/lightGallery-all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/js/lightGallery-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/assets/js/prettify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/config.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/content/about.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/content/posts/creating-a-new-theme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/content/posts/goisforlovers.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/content/posts/hugoisforlovers.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/content/posts/migrate-from-jekyll.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/content/posts/news/0.43-relnotes/featured-hugo-43-poster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/content/posts/news/0.43-relnotes/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/content/posts/news/0.44-relnotes/featured-hugo-44-poster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/content/posts/news/0.44-relnotes/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/content/posts/news/0.45-relnotes/featured-hugo-45-poster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/content/posts/news/0.45-relnotes/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/content/posts/news/0.45.1-relnotes/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/content/posts/news/0.46-relnotes/featured-hugo-46-poster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/content/posts/news/0.46-relnotes/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/content/posts/news/0.47-relnotes/featured-hugo-47-poster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/content/posts/news/0.47-relnotes/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/content/posts/news/0.47.1-relnotes/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/content/posts/news/0.48-relnotes/featured-hugo-48-poster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/content/posts/news/0.48-relnotes/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/content/posts/news/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/content/posts/news/http2-server-push-in-hugo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/resources/_gen/assets/js/js/vendor_main.js_d3f53f09220d597dac26fe7840c31fc9.content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/resources/_gen/assets/js/js/vendor_main.js_d3f53f09220d597dac26fe7840c31fc9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/resources/_gen/assets/js/js/vendor_no_gallery.js_d3f53f09220d597dac26fe7840c31fc9.content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/resources/_gen/assets/js/js/vendor_no_gallery.js_d3f53f09220d597dac26fe7840c31fc9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/resources/_gen/assets/scss/css/main.scss_b95b077eb505d5c0aff8055eaced30ad.content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/resources/_gen/assets/scss/css/main.scss_b95b077eb505d5c0aff8055eaced30ad.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/static/images/me/avatar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/exampleSite/static/images/me/wechat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/images/home_post_mode.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/images/screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/images/tn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/_default/baseof.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/_default/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/_default/posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/_default/single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/_default/terms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/index.atom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/page/single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/partials/css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/partials/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/partials/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/partials/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/partials/home_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/partials/home_profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/partials/js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/partials/paginator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/partials/related.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/partials/seo_schema.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/partials/social.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/partials/wechat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/rss.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/layouts/sitemap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/resources/_gen/assets/js/js/vendor_main.js_d3f53f09220d597dac26fe7840c31fc9.content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/resources/_gen/assets/js/js/vendor_main.js_d3f53f09220d597dac26fe7840c31fc9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/resources/_gen/assets/js/js/vendor_no_gallery.js_d3f53f09220d597dac26fe7840c31fc9.content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/resources/_gen/assets/js/js/vendor_no_gallery.js_d3f53f09220d597dac26fe7840c31fc9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/resources/_gen/assets/scss/css/main.scss_b95b077eb505d5c0aff8055eaced30ad.content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/resources/_gen/assets/scss/css/main.scss_b95b077eb505d5c0aff8055eaced30ad.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/LeaveIt/theme.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/archetypes/.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/exampleSite/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/exampleSite/config.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/exampleSite/content/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/exampleSite/data/projects/2014-07-05-project-1.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/exampleSite/data/projects/2014-07-06-project-2.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/exampleSite/data/projects/2014-07-07-project-3.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/exampleSite/data/projects/2014-07-08-project-5.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/exampleSite/data/projects/2014-07-09-project-4.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/exampleSite/data/projects/2014-07-10-project-6.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/exampleSite/static/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/images/screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/images/tn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/layouts/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/layouts/partials/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/layouts/partials/aside.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/layouts/partials/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/layouts/partials/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/layouts/partials/hero.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/layouts/partials/js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/layouts/partials/location.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/layouts/partials/modals.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/layouts/partials/nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/layouts/partials/portfolio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/layouts/partials/services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/css/creative.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/css/modals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/img/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/img/marker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/img/portfolio/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/img/portfolio/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/img/portfolio/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/img/portfolio/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/img/portfolio/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/img/portfolio/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/js/cbpAnimatedHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/js/classie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/js/creative.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/js/gmaps.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/js/hpneo.gmaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/js/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/js/jquery.fittext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/static/js/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-creative-theme/theme.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/archetypes/default.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/config.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/content/blog/are-you-doing-the-right-way.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/content/blog/simple-image-post.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/content/blog/simple-post-title.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/data/about.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/data/about2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/data/blog.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/data/contact.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/data/portfolio.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/data/pricing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/data/service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/data/skill.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/data/team.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/data/testimonial.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/about/about-business-man.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/about/company-growth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/backgrounds/bg-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/backgrounds/bg-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/blog/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/blog/blog-post-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/blog/blog-post-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/blog/blog-post-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/blog/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/logos/our-client.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/portfolio/portfolio-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/portfolio/portfolio-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/portfolio/portfolio-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/portfolio/portfolio-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/portfolio/portfolio-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/portfolio/portfolio-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/portfolio/portfolio-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/portfolio/portfolio-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/slider/hero-area.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/team/author.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/team/client-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/team/client-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/team/team-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/team/team-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/team/team-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/exampleSite/static/images/team/team-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/images/screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/images/tn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/layouts/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/layouts/_default/baseof.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/layouts/_default/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/layouts/_default/single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/layouts/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/layouts/partials/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/layouts/partials/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/layouts/partials/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/layouts/partials/counter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/layouts/partials/cta.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/layouts/partials/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/layouts/partials/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/layouts/partials/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/layouts/partials/hero-area.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/layouts/partials/navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/layouts/partials/portfolio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/layouts/partials/preloader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/layouts/partials/pricing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/layouts/partials/service.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/layouts/partials/skill.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/layouts/partials/team.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/layouts/partials/testimonial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/Sticky/jquery.sticky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/animate-css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/bootstrap/dist/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/count-to/jquery.countTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/jQuery-nav/jquery.nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/jquery/dist/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/magnific-popup/dist/jquery.magnific-popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/magnific-popup/dist/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/magnific-popup/dist/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/magnific-popup/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/masonry/dist/masonry.pkgd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/masonry/dist/masonry.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/mixitup/mixitup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/slick-carousel/slick/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/slick-carousel/slick/config.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/slick-carousel/slick/fonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/slick-carousel/slick/fonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/slick-carousel/slick/fonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/slick-carousel/slick/fonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/slick-carousel/slick/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/slick-carousel/slick/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/slick-carousel/slick/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/slick-carousel/slick/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/smooth-scroll/dist/js/smooth-scroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/smooth-scroll/dist/js/smooth-scroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/themefisher-font/fonts/themefisher-font.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/themefisher-font/fonts/themefisher-font.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/themefisher-font/fonts/themefisher-font.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/themefisher-font/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/wow/Gruntfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/wow/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/wow/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/wow/css/libs/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/wow/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/wow/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/wow/dist/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/wow/dist/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/wow/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/wow/spec/coffeescripts/helpers/SpecHelper.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/wow/spec/coffeescripts/wow-spec.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/wow/spec/javascripts/fixtures/custom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/wow/spec/javascripts/fixtures/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/wow/spec/javascripts/helpers/SpecHelper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/wow/spec/javascripts/libs/jasmine-jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/wow/spec/javascripts/libs/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/wow/spec/javascripts/wow-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/wow/src/wow.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/meghna-hugo/theme.toml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-767882620">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="content" value="2" />
+          <entry key="css" value="7" />
+          <entry key="html" value="44" />
+          <entry key="jpeg" value="1" />
+          <entry key="jpg" value="7" />
+          <entry key="js" value="1" />
+          <entry key="json" value="6" />
+          <entry key="md" value="20" />
+          <entry key="png" value="5" />
+          <entry key="scss" value="62" />
+          <entry key="toml" value="16" />
+          <entry key="xml" value="4" />
+          <entry key="yaml" value="1" />
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="7" />
+          <entry key="HTML" value="44" />
+          <entry key="Image" value="13" />
+          <entry key="JSON" value="6" />
+          <entry key="JavaScript" value="1" />
+          <entry key="Markdown" value="20" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="SCSS" value="62" />
+          <entry key="TOML file" value="16" />
+          <entry key="XML" value="4" />
+          <entry key="YAML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="728" />
+          <entry key="md" value="23" />
+          <entry key="scss" value="23" />
+          <entry key="toml" value="357" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="728" />
+          <entry key="Markdown" value="23" />
+          <entry key="SCSS" value="23" />
+          <entry key="TOML file" value="357" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1197247309">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.toml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layouts/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layouts/partials/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/layouts/partials/hero.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="128" column="37" lean-forward="true" selection-start-line="128" selection-start-column="37" selection-end-line="128" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/_common/_page/home.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" selection-start-line="39" selection-end-line="51" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>icon</find>
+      <find>social</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/themes/infinity-hugo/exampleSite/config.toml" />
+        <option value="$PROJECT_DIR$/content/dummy.md" />
+        <option value="$PROJECT_DIR$/content/posts/my-first-post.md" />
+        <option value="$PROJECT_DIR$/assets/css/_variables/default.scss" />
+        <option value="$PROJECT_DIR$/assets/css/main.scss" />
+        <option value="$PROJECT_DIR$/assets/css/_common/_page/home_post.scss" />
+        <option value="$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_page/home.scss" />
+        <option value="$PROJECT_DIR$/layouts/_default/baseof.html" />
+        <option value="$PROJECT_DIR$/layouts/partials/about.html" />
+        <option value="$PROJECT_DIR$/themes/LeaveIt/assets/css/main.scss" />
+        <option value="$PROJECT_DIR$/assets/css/_common/_page/home.scss" />
+        <option value="$PROJECT_DIR$/assets/css/_custom.scss" />
+        <option value="$PROJECT_DIR$/themes/LeaveIt/layouts/partials/wechat.html" />
+        <option value="$PROJECT_DIR$/static/css/animate.min.css" />
+        <option value="$PROJECT_DIR$/config.toml" />
+        <option value="$PROJECT_DIR$/layouts/partials/hero.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/magnific-popup/package.json" />
+      <path value="$PROJECT_DIR$/themes/meghna-hugo/static/plugins/wow/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="personalweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personalweb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="personalweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="personalweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542574576434" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Personal\Projects\personalHugo\layouts\partials" />
+      <recent name="D:\Personal\Projects\personalHugo\static" />
+      <recent name="D:\Personal\Projects\personalHugo\images" />
+      <recent name="D:\Personal\Projects\personalHugo\layouts" />
+      <recent name="D:\Personal\Projects\personalHugo\data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1a6ac06-3f4c-4dc6-9afc-23974d822ac6" name="Default Changelist" comment="" />
+      <created>1542365920945</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542365920945</updated>
+      <workItem from="1542365923126" duration="12730000" />
+      <workItem from="1542386533455" duration="3720000" />
+      <workItem from="1542574768548" duration="62000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16512000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2553305" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Thumbnails" order="5" weight="0.32939914" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_section/footer.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_section/navbar.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_section/pagination.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/assets/css/_variables/default.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/assets/font/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5508" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/assets/font/iconfont.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/assets/css/_custom.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/assets/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_page/home_post.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_page/post.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/exampleSite/config.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" lean-forward="true" selection-start-line="59" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_core/normalize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archetypes/default.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/_common/_core/base.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_core/media.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1887" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/layouts/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/layouts/index.atom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/layouts/page/single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/layouts/_default/baseof.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/layouts/_default/list.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/layouts/_default/posts.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/layouts/_default/single.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/layouts/_default/terms.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/layouts/partials/css.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/layouts/partials/home_post.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/head.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/layouts/partials/head.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/layouts/partials/header.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/layouts/partials/home_profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/layouts/partials/paginator.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/layouts/partials/related.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/layouts/partials/seo_schema.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/layouts/partials/social.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/layouts/partials/wechat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_page/home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="41" selection-start-line="41" selection-end-line="53" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_core/base.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/LeaveIt/assets/css/_common/_core/layout.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hugo-creative-theme/theme.toml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/social.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/animate.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="755">
+          <caret line="5" column="53432" lean-forward="true" selection-start-line="5" selection-start-column="53432" selection-end-line="5" selection-end-column="53432" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/_custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/_variables/default.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/_common/_section/footer.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/_common/_section/navbar.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/_common/_section/pagination.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/_common/_page/home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" selection-start-line="39" selection-end-line="51" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/hero.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="128" column="37" lean-forward="true" selection-start-line="128" selection-start-column="37" selection-end-line="128" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
