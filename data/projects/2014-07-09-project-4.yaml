@@ -1,8 +1,10 @@
 modalID: 4
-title: Project 4
-date: 2014-07-09
-img: 4.jpg
-client: Start Bootstrap
-clientLink: "#"
-category: Web Development
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.
+title: Simple Personal Computers
+date: 2017-04-26
+img: spc.jpg
+client: For BSc in Computer Science (ITB)
+clientLink: "http://www.itb.ie/"
+category: Web Development | PHP - Symfony3
+description: A PC building application with integrated tutorials on different components. This application has been writen for the purpose of BSc of Computer Science. The application was written in PHP framework <a href="https://symfony.com/">Symfony 3</a>.
+link: https://github.com/gelmisb/Simple-Personal-Computers
+

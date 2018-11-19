@@ -7,5 +7,74 @@
                 <a href="{{ .Site.Params.aside.button.link }}" class="btn btn-default btn-xl wow tada">{{ .Site.Params.aside.button.text }}</a>
             {{ end }}
         </div>
+
+        <div class="aside-2-parts">
+
+            <div class="left-side">
+
+                            <div class="col-lg-8 col-lg-offset-2 text-center">
+                                {{ with .Site.Params.contact.headline }}
+                                <h2 class="section-heading">{{ . }}</h2>
+                                {{ end }}
+                                {{ if and .Site.Params.contact.headline .Site.Params.contact.description }}
+                                <hr class="primary">
+                                {{ end }}
+                                {{ with .Site.Params.contact.description }}
+                                <p>{{ . | markdownify }}</p>
+                                {{ end }}
+                            </div>
+                            {{ if .Site.Params.contact.phone }}
+                            <div class="
+                {{ if .Site.Params.contact.email }}
+                    col-lg-4
+                {{ else }}
+                    col-lg-8
+                {{ end }}
+                col-lg-offset-2 text-center">
+                                <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                                <p><a>{{ .Site.Params.contact.phone }}</a></p>
+                            </div>
+                            {{ end }}
+                            {{ if .Site.Params.contact.email }}
+                            <div class="
+                {{ if .Site.Params.contact.phone }}
+                    col-lg-4
+                {{ else }}
+                    col-lg-8 col-lg-offset-2
+                {{ end }}
+                 text-center">
+                                <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                                <p><a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a></p>
+                            </div>
+                            {{ end }}
+
+            </div>
+
+            <div class="right-side">
+                <form>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Full name</label>
+                        <input type="name" class="form-control" id="exampleName" placeholder="Gelmis Bartulis">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+
+        </div>
+
+
     </div>
 </aside>

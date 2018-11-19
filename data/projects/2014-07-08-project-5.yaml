@@ -1,8 +1,10 @@
 modalID: 5
-title: Project 5
-date: 2014-07-08
-img: 5.jpg
-client: Start Bootstrap
-clientLink: "#"
-category: Web Development
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.
+title: Cellular Automaton Framework in a Parallel Computing Environment
+date: 2017-10-08
+img: project5.jpg
+client: For BSc(Hons) in Computer Science (ITB)
+clientLink: "http://www.itb.ie/"
+category: Cellular Automation
+description: The workload has been divided up and each member of the group has been given work best suited to them. Initially members have been allocated work such as implementing a C program which will create the cellular automaton and populate it with people in each cell. Once complete and functional the rules for the cellular automaton will be implemented, rules such as virus infectivity, mortality rate and probability of recovery.
+
+link: https://github.com/gelmisb/cellularAutomata

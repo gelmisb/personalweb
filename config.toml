@@ -103,16 +103,16 @@ googleAnalytics = ""
 
     # Aside section
 	[params.aside]
-		headline = "Get the Creative Theme for Hugo"
+		headline = "Thank you for visiting!"
 
 		[params.aside.button]
-			text = "Download now"
-			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+			text = "Go up"
+			link = "#"
 
 	# Contact section
-	[params.contact]
+	[params.aside]
 		headline = "Let's Get In Touch!"
-		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
-		phone = "123-456-6789"
-		email = "feedback@startbootstrap.com"
+		description = "Let me know if you would like to work on any project or would like to get in touch!"
+		phone = "+353 89 493 9050 "
+		email = "gelmis.bartulis@gmail.com"
 

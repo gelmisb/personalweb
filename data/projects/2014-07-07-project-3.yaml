@@ -1,8 +1,10 @@
 modalID: 3
-title: Project 3
-date: 2014-07-07
-img: 3.jpg
-client: Start Bootstrap
-clientLink: "#"
-category: Web Development
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.
+title: Money Advice and Budgeting Service
+date: 2018-09-05
+img: mabs.jpg
+client: MABS - Money Advice and Budgeting Service
+clientLink: "https://www.mabs.ie/en/"
+category: Android Development | Java
+description: panel. This application outlines the main objectives for the purpose of budgeting. When the user signs in to the application they are presented with a current expenditure of that day and the most up to date news. Where in the same screen they are also have the ability to add items having two options, which are manual and hands-free.
+
+  https://github.com/gelmisb/mabs

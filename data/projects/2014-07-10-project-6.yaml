@@ -1,8 +1,9 @@
 modalID: 6
-title: Project 6
-date: 2014-07-10
-img: 6.jpg
-client: Start Bootstrap
-clientLink: "#"
-category: Web Development
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.
+title: My Github
+date: Curently
+img: project6.jpg
+client:
+clientLink: "https://github.com/gelmisb"
+category: Android | Web | Software development
+description: Please feel free to visit my Github account to see more projects.
+link: https://github.com/gelmisb

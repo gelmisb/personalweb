@@ -22,7 +22,7 @@
                         {{ with .description }}
                             <p>{{ . | markdownify }}</p>
                         {{ end }}
-                        {{ if or .client .date .category }}
+                        {{ if or .client .date .category .link}}
                             <ul class="list-inline item-details">
                                 {{ if .client }}
                                     <li>{{ with $.Site.Params.portfolio.modal.client }}{{.}}: {{ end }}
@@ -38,6 +38,12 @@
                                     <li>{{ with $.Site.Params.portfolio.modal.category }}{{.}}: {{ end }}
                                         <strong><a href="#">{{ .category }}</a></strong>
                                     </li>
+                                {{ end }}
+
+                                {{ if .link }}
+                                <li>{{ with $.Site.Params.portfolio.modal.link }}{{.}}: {{ end }}
+                                    Link - <strong><a href="{{ .link }}" target="_blank">{{ .link }}</a></strong>
+                                </li>
                                 {{ end }}
                             </ul>
                         {{ end }}

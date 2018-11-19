@@ -531,6 +531,26 @@ body {
 
 }
 
+
+.aside-2-parts {
+    display: flex;
+}
+
+.aside-2-parts div {
+    flex: 1;
+    margin-top: 100px;
+}
+
+.right-side {
+    border-left: 2px solid white;
+    padding-left: 50px;
+
+
+}
+
+
+
+
 /*
 
 -------------------------------------------
