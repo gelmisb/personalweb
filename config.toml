@@ -6,20 +6,7 @@ googleAnalytics = ""
 
 [params]
 
-	# You can use Markdown syntax for urls [text](//url.to/source) for
-	# most longer texts.
 
-	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
-	# for more icons. The icons are represented by their corresponding
-	# CSS class.
-
-	# All projects of the portfolio are defined in their own files.
-	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
-	# folder into the 'data' directory at the root of this Hugo site.
-	# For more information take a look at the README.
-
-	# To provide some metadata for search engines feel free to add some
-	# information about you and your website.
 	name = "Gelmis Bartulis"
 	description = "Software developer"
 
@@ -63,31 +50,11 @@ googleAnalytics = ""
 		description = "[Lorem]"
 		buttonText  = "Am I able to?"
 
-#
-#        [[params.services.list]]
-#            icon = "fal fa-mobile-android-alt"
-#            title = "Junior Web Developer"
-#            description = "AngularJS, AngularJS2, JS, Ember.JS, jQuery, PHP, IBM Watson integration"
-#
-#        [[params.services.list]]
-#			icon = "fab fa-android"
-#			title = "Android Full-stack Developer"
-#			description = "Java, Kotlin, IBM Watson integration"
-#
-#		[[params.services.list]]
-#            icon = "ab fa-connectdevelop"
-#            title = "Software Developer"
-#            description = "PHP, Python, Java, C#"
-#
-#        [[params.services.list]]
-#            icon = "fa-heart"
-#            title = "Made with Love"
-#            description = "You have to make your websites with love these days!"
 
 
 	# Service section
 	[params.services]
-		headline = "Skillset"
+		headline = "Character"
 
         [[params.services.list]]
             icon = "fa-diamond"
@@ -149,8 +116,3 @@ googleAnalytics = ""
 		phone = "123-456-6789"
 		email = "feedback@startbootstrap.com"
 
-	# Google Maps section
-	# [params.location]
-	# 	latitude  = "34.007850"
-	# 	longitude = "-118.499305"
-	# 	maps_api_key = ""

@@ -504,6 +504,14 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
+
+.my-avatar {
+    width:30%;
+    border-radius: 100%;
+    box-shadow: 10px 10px 20px #000;
+
+}
+
 #map {
     height: 300px;
     overflow: visible;
@@ -514,15 +522,24 @@ body {
     text-align: justify;
 }
 
-
-.my-avatar {
-    width:30%;
-    border-radius: 100%;
-    box-shadow: 10px 10px 20px #000;
-
+.progress.active .progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
 }
-
 .headline-services {
     margin-top: 100px;
 
 }
+
+/*
+
+-------------------------------------------
+                    TO DO
+  1. WHITE FOOTER
+  2. ANIMATED PROGRESS BARS
+  3. CHATBOT
+
+-------------------------------------------
+
+
+*/

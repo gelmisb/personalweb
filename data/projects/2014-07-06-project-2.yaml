@@ -1,8 +1,10 @@
 modalID: 2
-title: Project 2
-date: 2014-07-06
+title: Zamuzai - The Legendary samurai
+date: 2016-11-06
 img: 2.jpg
-client: Start Bootstrap
-clientLink: "#"
-category: Web Development
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.
+client: For BSc(Hons) in Computer Science (ITB)
+clientLink: "https://github.com/gelmisb/The-samuzai-smaurai"
+category: Game Development | C#
+description: This video game is about ancient legendary Japanese warriors, samurais. They used to fight with katana’s (a Japanese sword) while they were fighting demons or legendary creatures. I tried to represent that in this game. The video game is written in Unity using C#. Which makes the games render smoothly and have null to minimum errors present.
+
+  https://github.com/gelmisb/The-samuzai-smaurai
