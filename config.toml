@@ -32,17 +32,12 @@ googleAnalytics = ""
 		subtitle   = "a"
 		buttonText = "More"
 
-        [params.social]
-            GitHub = "xxoo"
-            Twitter = "xxoo"
-            Email   = "xxoo"
-            Instagram = "xxoo"
-            Wechat = "xxoo"
-            Facebook = "xxoo"
-            Telegram = "xxoo"
-            Dribbble = "xxoo"
-            Medium = "xxoo"
-
+    [params.social]
+        GitHub = "https://github.com/gelmisb"
+        LinkedIn = "https://www.linkedin.com/in/gelmisb/"
+        Instagram = "https://www.instagram.com/thegsb/"
+        Email   = "mailto:gelmis.bartulis@gmail.com"
+        Facebook = "https://www.facebook.com/gbartulis"
 
 	# About section
 	[params.about]
@@ -93,6 +88,10 @@ googleAnalytics = ""
             title = "Software Developer"
             description = "PHP, Python, Java, C#"
 
+		[[params.services.list2]]
+            icon = "far fa-gamepad"
+            title = "Game Developer"
+            description = "Java, C#"
 
     # Portfolio modals
 	[params.portfolio.modal]
@@ -101,18 +100,16 @@ googleAnalytics = ""
         category = "Category"
         buttonText = "Close"
 
-    # Aside section
-	[params.aside]
-		headline = "Thank you for visiting!"
 
-		[params.aside.button]
-			text = "Go up"
-			link = "#"
 
 	# Contact section
-	[params.aside]
+	[params.contact]
 		headline = "Let's Get In Touch!"
 		description = "Let me know if you would like to work on any project or would like to get in touch!"
 		phone = "+353 89 493 9050 "
 		email = "gelmis.bartulis@gmail.com"
+
+		[params.aside.button]
+			text = "Go up"
+			link = "#hero"
 

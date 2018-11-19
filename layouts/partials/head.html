@@ -5,6 +5,11 @@
 {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 {{ .Hugo.Generator }}
 <title>{{ .Site.Title }}</title>
+{{ $style := resources.Get "css/main.scss" | resources.ToCSS | resources.Minify}}
+{{ $iconfont := resources.Get "font/iconfont.css" }}
+<link rel="stylesheet" href="{{ $iconfont.RelPermalink }}">
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
 
 {{ "<!-- Favicon -->" | safeHTML }}
 <link rel="shortcut icon" href="{{ .Site.Params.favicon | absURL }}">
@@ -24,5 +29,6 @@
 {{ "<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->" | safeHTML }}
 {{ "<!--[if lt IE 9]>" | safeHTML }}
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<script src="https://smtpjs.com/v2/smtp.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 {{ "<![endif]-->" | safeHTML }}

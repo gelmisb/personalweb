@@ -4,9 +4,7 @@
     <!--<source src="videos/intro.mp4" type="video/mp4">-->
 <!--</video>-->
 <header>
-    <div class="social-links">
-        {{ partial "social.html" . }}
-    </div>
+
 
     <div class="header-content">
 
@@ -24,11 +22,11 @@
             <hr>
             {{ end }}
             {{ with .Site.Params.hero.subtitle }}
-
-
-
-
             {{ end }}
+            <div class="social-links" style="margin-bottom: 5%;">
+                {{ partial "social.html" . }}
+            </div>
+
             {{ with .Site.Params.hero.buttonText }}
             <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ . }}</a>
             {{ end }}
@@ -161,4 +159,3 @@
         animation-delay: 7s;
     }
    </style>
-<footer></footer>

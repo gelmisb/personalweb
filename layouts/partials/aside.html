@@ -1,13 +1,16 @@
 {{ "<!-- ASIDE -->" | safeHTML }}
 <aside class="bg-dark">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <div class="container text-center">
-        <div class="call-to-action">
-            {{ with .Site.Params.aside.headline }}<h2>{{ . }}</h2>{{ end }}
+        <div class="call-to-action page-scroll">
+            {{ with .Site.Params.aside.headline }}<h2>Thank you for visiting!</h2>{{ end }}
             {{ if and .Site.Params.aside.button.link .Site.Params.aside.button.text }}
-                <a href="{{ .Site.Params.aside.button.link }}" class="btn btn-default btn-xl wow tada">{{ .Site.Params.aside.button.text }}</a>
+                <a href="{{ .Site.Params.aside.button.link }}" class="btn btn-primary btn-xl page-scroll">{{ .Site.Params.aside.button.text }}</a>
             {{ end }}
         </div>
-
+        <h2>Thank you for visiting!</h2>
         <div class="aside-2-parts">
 
             <div class="left-side">
@@ -51,26 +54,81 @@
             </div>
 
             <div class="right-side">
-                <form>
-
+                <form class="form-group" onsubmit="openModal()" id="myForm">
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Full name</label>
-                        <input type="name" class="form-control" id="exampleName" placeholder="Gelmis Bartulis">
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Example John">
                     </div>
 
                     <div class="form-group">
-                        <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        <label for="exampleFormControlInput2">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
                     </div>
 
 
                     <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Example textarea</label>
+                        <label for="exampleFormControlTextarea1">Message</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
 
                     <button type="submit" class="btn btn-primary">Submit</button>
+
                 </form>
+
+                <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title"></h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>One fine body&hellip;</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary send" data-dismiss="modal" onclick="sendIt()">Save changes</button>
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+
+                <script>
+                        $('#myForm').on('submit', function(e){
+                            $('#myModal').modal('show');
+                            e.preventDefault();
+
+
+                            var name = $('#exampleFormControlInput1').getText(); //in-case is showing
+                            var email = $('#exampleFormControlInput2').getText(); //in-case is showing
+
+
+                            document.getElementsByName("modal-title").innerHTML = "Hi "  + name + ", thanks for your email!";
+                            document.getElementsByName("modal-body").innerHTML = "Was this: " + email + " the correct email?"  ;
+
+                        });
+
+                        function sendIt() {
+
+
+                            var name = $('#exampleFormControlInput1').getText(); //in-case is showing
+                            var email = $('#exampleFormControlInput2').getText(); //in-case is showing
+                            var body = $('#exampleFormControlTextarea1').getText(); //in-case is showing
+
+                            Email.send("gelmisb@gmail.com",
+                                email,
+                                "Email from " + name,
+                                "Test email" + body,
+                                "smtp25.elasticemail.com",
+                                "gelmis.bartulis@gmail.com",
+                                "5b781c98-69ff-40c3-8acf-168f3113ffdd",
+
+                            );
+                            alert("sent");
+
+                        }
+
+                </script>
             </div>
 
         </div>
