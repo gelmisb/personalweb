@@ -9,8 +9,7 @@
 {{ $iconfont := resources.Get "font/iconfont.css" }}
 <link rel="stylesheet" href="{{ $iconfont.RelPermalink }}">
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-
-
+<script type="text/javascript">(function(t,e){var r=function(t){try{var r=e.head||e.getElementsByTagName("head")[0];a=e.createElement("script");a.setAttribute("type","text/javascript");a.setAttribute("src",t);r.appendChild(a);}catch(t){}};t.CollectId = "5bf2d0d9db783724a7882303";r("https://collectcdn.com/launcher.js");})(window,document);</script>
 {{ "<!-- Favicon -->" | safeHTML }}
 <link rel="shortcut icon" href="{{ .Site.Params.favicon | absURL }}">
 {{ "<!-- Bootstrap Core CSS -->" | safeHTML }}
@@ -29,6 +28,9 @@
 {{ "<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->" | safeHTML }}
 {{ "<!--[if lt IE 9]>" | safeHTML }}
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<script src="https://smtpjs.com/v2/smtp.js"></script>
+<script src="js/jquery.vide.min.js"></script>
+
+
+
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 {{ "<![endif]-->" | safeHTML }}

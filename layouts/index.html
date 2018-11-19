@@ -1,5 +1,6 @@
-<!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<!DOCTYPE html >
+
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}" manifest="example.appcache">
     <head>
         {{ partial "head.html" . }}
 

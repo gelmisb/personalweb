@@ -11,7 +11,7 @@ googleAnalytics = ""
 	description = "Software developer"
 
 	# The path must be relative to the static folder
-	favicon = "favicon.ico"
+	favicon = "favicon.png"
 
 
 	# Navigation
@@ -33,17 +33,17 @@ googleAnalytics = ""
 		buttonText = "More"
 
     [params.social]
-        GitHub = "https://github.com/gelmisb"
-        LinkedIn = "https://www.linkedin.com/in/gelmisb/"
-        Instagram = "https://www.instagram.com/thegsb/"
-        Email   = "mailto:gelmis.bartulis@gmail.com"
-        Facebook = "https://www.facebook.com/gbartulis"
+        GitHub = "gelmisb"
+        LinkedIn = "gelmisb"
+        Instagram = "thegsb"
+        Email   = "gelmis.bartulis@gmail.com"
+        Facebook = "gbartulis"
 
 	# About section
 	[params.about]
 		headline    = "We"
 		description = "[Lorem]"
-		buttonText  = "Am I able to?"
+		buttonText  = "Details"
 
 
 

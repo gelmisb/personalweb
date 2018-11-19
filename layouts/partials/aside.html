@@ -7,7 +7,7 @@
         <div class="call-to-action page-scroll">
             {{ with .Site.Params.aside.headline }}<h2>Thank you for visiting!</h2>{{ end }}
             {{ if and .Site.Params.aside.button.link .Site.Params.aside.button.text }}
-                <a href="{{ .Site.Params.aside.button.link }}" class="btn btn-primary btn-xl page-scroll">{{ .Site.Params.aside.button.text }}</a>
+                <a href="#page-top" class="btn btn-primary btn-xl page-scroll">{{ .Site.Params.aside.button.text }}</a>
             {{ end }}
         </div>
         <h2>Thank you for visiting!</h2>
@@ -20,7 +20,7 @@
                                 <h2 class="section-heading">{{ . }}</h2>
                                 {{ end }}
                                 {{ if and .Site.Params.contact.headline .Site.Params.contact.description }}
-                                <hr class="primary">
+                                <hr class="primary"  style="text-align: center !important; align-content: center; margin-left: 44%">
                                 {{ end }}
                                 {{ with .Site.Params.contact.description }}
                                 <p>{{ . | markdownify }}</p>
@@ -54,26 +54,47 @@
             </div>
 
             <div class="right-side">
-                <form class="form-group" onsubmit="openModal()" id="myForm">
+                <form method="post" class="form-group" name="myemailform" form action="https://formspree.io/gelmis.bartulis@gmail.com" >
+
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Full name</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Example John">
+                        <input type="text" class="form-control" id="exampleFormControlInput1" name="name" placeholder="Example John">
                     </div>
 
                     <div class="form-group">
                         <label for="exampleFormControlInput2">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="exampleFormControlInput2" name="email" placeholder="name@example.com">
                     </div>
 
 
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
                     </div>
 
                     <button type="submit" class="btn btn-primary">Submit</button>
-
                 </form>
+
+                <!--<form class="form-group" onsubmit="openModal()" id="myForm">-->
+                    <!--<div class="form-group">-->
+                        <!--<label for="exampleFormControlInput1">Full name</label>-->
+                        <!--<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Example John">-->
+                    <!--</div>-->
+
+                    <!--<div class="form-group">-->
+                        <!--<label for="exampleFormControlInput2">Email address</label>-->
+                        <!--<input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">-->
+                    <!--</div>-->
+
+
+                    <!--<div class="form-group">-->
+                        <!--<label for="exampleFormControlTextarea1">Message</label>-->
+                        <!--<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>-->
+                    <!--</div>-->
+
+                    <!--<button type="submit" class="btn btn-primary">Submit</button>-->
+
+                <!--</form>-->
 
                 <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
                     <div class="modal-dialog" role="document">
