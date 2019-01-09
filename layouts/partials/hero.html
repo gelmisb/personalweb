@@ -1,28 +1,38 @@
 {{ "<!-- HEADER -->" | safeHTML }}
 
 <header>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <video autoplay muted class="video-bg" id="mainVid" >
-        <source src="videos/intro.mp4" type="video/mp4">
-    </video>
 
     <div class="header-content">
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-        <!-- The video -->
 
-        <div class="header-content-inner">
+
+        <div class="header-content-inner" >
             {{ with .Site.Params.hero.slogan }}
 
+
             <img class="my-avatar" src="avatar.jpg" alt="Avatar of Gelmis"/>
+
+
             <h1>{{ . | markdownify  }}</h1>
-            {{ end }}
-            {{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle }}
-            <hr>
-            {{ end }}
-            {{ with .Site.Params.hero.subtitle }}
-            {{ end }}
+
+
+
+                {{ end }}
+
+                {{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle }}
+
+                    <hr>
+
+                {{ end }}
+
+                {{ with .Site.Params.hero.subtitle }}
+
+                {{ end }}
+
+        </div>
             <div class="social-links" style="margin-bottom: 5%;">
                 {{ partial "social.html" . }}
             </div>
@@ -31,89 +41,12 @@
             <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ . }}</a>
             {{ end }}
 
-
-        </div>
     </div>
+
 </header>
 
 
 <style>
-
-
-
-
-
-
-
-    @keyframes fade-in {
-        from {
-            opacity:0;
-        }
-        to {
-            opacity:1;
-        }
-    }
-    @-moz-keyframes fade-in { /* Firefox */
-        from {
-            opacity:0;
-        }
-        to {
-            opacity:1;
-        }
-    }
-    @-webkit-keyframes fade-in { /* Safari and Chrome */
-        from {
-            opacity:0;
-        }
-        to {
-            opacity:1;
-        }
-    }
-    @-o-keyframes fade-in { /* Opera */
-        from {
-            opacity:0;
-        }
-        to {
-            opacity: 1;
-        }
-    }​
-    @keyframes fade-out {
-        from {
-            opacity:1;
-        }
-        to {
-            opacity:0;
-        }
-    }
-    @-moz-keyframes fade-out { /* Firefox */
-        from {
-            opacity:1;
-        }
-        to {
-            opacity:0;
-        }
-    }
-    @-webkit-keyframes fade-out { /* Safari and Chrome */
-        from {
-            opacity:1;
-        }
-        to {
-            opacity:0;
-        }
-    }
-    @-o-keyframes fade-out { /* Opera */
-        from {
-            opacity:1;
-        }
-        to {
-            opacity: 0;
-        }
-    }
-
-    html, body{
-        height: 100%;
-    }
-
 
     header{
         position: relative;
@@ -132,39 +65,9 @@
         min-height: 100%;
     }
 
-
-    .video-bg {
-        position: absolute;
-        right: 0;
-        top: 0;
-        min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: auto;
-        display: block;
-        z-index: 1;
-        opacity: 1;
-        -moz-animation: fade-out 3s ease-in forwards; /* Firefox */
-        -webkit-animation: fade-out 3s ease-in forwards; /* Safari and Chrome */
-        -o-animation: fade-out 3s ease-in forwards; /* Opera */
-        animation: fade-out 3s ease-in forwards;
-        -moz-animation-delay: 7s;
-        -webkit-animation-delay: 7s;
-        -o-animation-delay: 7s;
-        animation-delay: 7s;
-    }
-
-
-    @media only screen and (max-device-width : 640px) {
-        .video-bg {
-            display: none;
-        }
-    }
    </style>
 
-<script>
-    $('#mainVid').on('ended',function(){
-        $('#mainVid').hide();
-    });
-</script>
+
+
+
 

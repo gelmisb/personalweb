@@ -1,6 +1,6 @@
 <!DOCTYPE html >
 
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}" manifest="example.appcache">
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}" >
     <head>
         {{ partial "head.html" . }}
 
@@ -18,6 +18,10 @@
             {{ partial "about.html" . }}
         {{ end }}
 
+        {{ if .Site.Params.contact }}
+            {{ partial "contact.html" . }}
+        {{ end }}
+
         {{ if .Site.Params.services.list }}
             {{ partial "services.html" . }}
         {{ end }}
@@ -32,10 +36,6 @@
 
         {{ if .Site.Params.aside }}
             {{ partial "aside.html" . }}
-        {{ end }}
-
-        {{ if .Site.Params.contact }}
-            {{ partial "contact.html" . }}
         {{ end }}
 
         {{ if .Site.Data.projects }}

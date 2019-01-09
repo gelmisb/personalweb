@@ -8,5 +8,6 @@
     <orderEntry type="library" name="html5shiv" level="application" />
     <orderEntry type="library" name="respond" level="application" />
     <orderEntry type="library" name="smtp" level="application" />
+    <orderEntry type="library" name="w3" level="application" />
   </component>
 </module>

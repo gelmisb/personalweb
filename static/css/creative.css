@@ -194,13 +194,14 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    /*background-image: url(../img/back2.jpg);*/
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
+
 
 header .header-content {
     position: relative;
@@ -506,11 +507,21 @@ body {
 }
 
 
+
+
+
+#card .back {
+    background: #2184cd;
+    color: #fff;
+    text-align: center;
+}
+
+
 .my-avatar {
     width:30%;
     border-radius: 100%;
     box-shadow: 10px 10px 20px #000;
-
+    margin-bottom: 20px;
 }
 
 #map {
@@ -551,6 +562,10 @@ body {
 .modal {
     color: #2d2d2d;
 }
+
+
+
+
 
 
 

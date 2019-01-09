@@ -27,7 +27,7 @@ googleAnalytics = ""
 
 	# Hero section
 	[params.hero]
-		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		# To change the background of the hero section, replace the 'back2.jpg' at './static/img' with your own.
 		slogan     = "Hi, I'm Gelmis."
 		subtitle   = "a"
 		buttonText = "More"
