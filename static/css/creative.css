@@ -518,6 +518,8 @@ body {
     padding: 0;
 }
 
+
+
 .cols {
     display: flex;
     margin-left: auto;
@@ -530,12 +532,10 @@ body {
     text-align: center;
     padding: 30px;
     margin: 30px;
-    background-color: transparent;
     border-radius: 10px;
     border: 1px solid #d9d9d9;
     box-shadow: 10px 10px 15px #787878;
     display: block;
-    transition: 0.3s;
 }
 
 .row hr {
@@ -575,6 +575,39 @@ body {
 .cols ul li {
     margin-bottom: 15px;
 }
+#ve {
+    height: 60px !important;
+    margin-bottom: 50px;
+}
+
+#ve2 {
+    height: 80px !important;
+    margin-bottom: 30px;
+
+}
+
+
+
+@media(max-width:768px) {
+
+    .cols {
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    .cols div {
+        text-align: center;
+        padding: 30px;
+        margin: 30px;
+        border-radius: 20px;
+        border: 1px solid #d9d9d9;
+        box-shadow: 10px 10px 15px #787878;
+    }
+
+}
+
 
 .my-avatar {
     width:30%;
