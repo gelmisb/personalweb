@@ -1,0 +1,9 @@
+modalID: 1
+title: Project M.I.A.
+date: 2018-05-05
+img: asistant.jpg
+client: For BSc(Hons) in Computer Science (ITB)
+clientLink: "http://www.itb.ie/"
+category: Android Development | A.I. integration
+description: Project M.I.A. is a personal assitant based on IBM Cloud Watson technologies. The application acts as users personal assitant though which the user can communicate either verbally or textually. It offers the most current weather and also with the latest news from Google API of Irish Times.
+link: https://github.com/gelmisb/chatbot-watson-android

@@ -2,34 +2,56 @@
 <section id="contact">
     <div class="container">
         <div class="row">
-            <h2>Want to collaborate?</h2>
+            <h2>Work Experience</h2>
+            <hr>
 
-            
+            <div class="cols">
 
-            {{ if .Site.Params.contact.phone }}
-            <div class="
-                {{ if .Site.Params.contact.email }}
-                    col-lg-4
-                {{ else }}
-                    col-lg-8
-                {{ end }}
-                col-lg-offset-2 text-center">
-                <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                <p>{{ .Site.Params.contact.phone }}</p>
+                <div class="column">
+                    <a href="https://www.mabs.ie/en/" ><img src="/img/mabs.jpg" id="card1" alt="Money advice and budgeting"></a>
+
+                    <h3 style="text-align: center">Android Full stack Developer</h3>
+                    <ul>
+                        <li> Developed an Android based application for budgeting services.</li>
+                        <li> Integrated with hands - free control and Dijkstra's algorithm</li>
+                        <li> Different path algorithms for increased efficiency and application speed.</li>
+                        <li> Wide and real time database for product management.</li>
+                        <li> Only developer on the application.</li>
+                    </ul>
+
+                </div>
+
+                <div class="column">
+                    <a href="http://www.teradev.ie/" ><img src="/img/td.png" alt="TeraDev"> </a>
+
+                    <h3 style="text-align: center">Junior Web Developer</h3>
+                    <ul>
+                        <li> Worked with on front end development with Angular Js and Ruby JS.</li>
+                        <li> Used several different frameworks, such as Angular JS 2, Java EE.</li>
+                        <li> Helped to debug the web platform - finding bugs, flaws and refurbishing.</li>
+                        <li> Applied different algorithms for more efficient and faster web-based application </li>
+                        <li> Managed systems for business support solutions application.</li>
+                    </ul>
+
+                </div>
+
+
+                <div class="column">
+                    <a href="https://www.visionexpress.ie/"><img src="/img/ve.png" alt="Vision Express"></a>
+
+                    <h3 style="text-align: center">Optical assistant</h3>
+                    <ul>
+                        <li> Mastered general administrative duties, while dispensing bespoke optical aids for clients.</li>
+                        <li> Achieved silver level in optical dispensing. </li>
+                        <li> Gained high communication and customer service understanding. </li>
+                        <li> Managed one to one contact lens tutorials and consultations. </li>
+                        <li> Mentored and trained junior colleagues. </li>
+                    </ul>
+
+                </div>
+
             </div>
-            {{ end }}
-            {{ if .Site.Params.contact.email }}
-            <div class="
-                {{ if .Site.Params.contact.phone }}
-                    col-lg-4
-                {{ else }}
-                    col-lg-8 col-lg-offset-2
-                {{ end }}
-                 text-center">
-                <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p><a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a></p>
-            </div>
-            {{ end }}
+
         </div>
     </div>
 </section>

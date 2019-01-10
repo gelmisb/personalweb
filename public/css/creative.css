@@ -514,67 +514,25 @@ body {
 
 #contact h2 {
     text-align: center;
-    font-weight: 600;
-    padding: 0;
 }
 
 .cols {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
+
 }
 
 .cols div {
     flex: 1;
-    text-align: center;
-    padding: 30px;
-    margin: 30px;
-    background-color: transparent;
-    border-radius: 10px;
-    border: 1px solid #d9d9d9;
-    box-shadow: 10px 10px 15px #787878;
-    display: block;
-    transition: 0.3s;
+    text-align: justify;
+
 }
-
-.row hr {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    margin-top: 0;
-    padding-top: 0;
-}
-
-
 
 .cols div img {
-    width: 275px;
-    height: 100px;
+    width: 200px;
+    margin: 15%;
     margin-left: auto;
     margin-right: auto;
 }
 
-#card1 {
-    border-radius: 50px;
-    box-shadow: 5px 5px 50px #fff;
-}
-
-.cols div h3 {
-    text-align: justify;
-    margin: 20px 0;
-
-}
-
-.cols ul {
-    text-align: justify;
-    list-style-type: none;
-}
-
-.cols ul li {
-    margin-bottom: 15px;
-}
 
 .my-avatar {
     width:30%;
@@ -621,3 +579,22 @@ body {
 .modal {
     color: #2d2d2d;
 }
+
+
+
+
+
+
+
+/*
+
+-------------------------------------------
+                    TO DO
+  1. WHITE FOOTER
+  2. ANIMATED PROGRESS BARS
+  3. CHATBOT
+
+-------------------------------------------
+
+
+*/
