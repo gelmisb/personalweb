@@ -1,57 +1,160 @@
 {{ "<!-- CONTACT -->" | safeHTML }}
 <section id="contact">
+
+    <style type="text/css">
+
+        #contact{
+            background-color: #fff;
+            color: #2d2d2d;
+        }
+
+        #contact h2 {
+            text-align: center;
+            font-weight: 600;
+            padding: 0;
+        }
+
+
+
+        .cols {
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0;
+        }
+
+        .cols div {
+            flex: 1;
+            text-align: center;
+            padding: 30px;
+            margin: 30px;
+            border-radius: 10px;
+            border: 1px solid #d9d9d9;
+            box-shadow: 10px 10px 15px #787878;
+            display: block;
+        }
+
+        #contact .container hr {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+            margin-top: 0;
+            padding-top: 0;
+        }
+
+
+
+        .cols div img {
+            width: 275px;
+            height: 100px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #card1 {
+            border-radius: 50px;
+            box-shadow: 5px 5px 50px #fff;
+        }
+
+        .cols div h3 {
+            text-align: justify;
+            margin: 20px 0;
+
+        }
+
+        .cols ul {
+            text-align: justify;
+            list-style-type: none;
+        }
+
+        .cols ul li {
+            margin-bottom: 15px;
+        }
+        #ve {
+            height: 60px !important;
+            margin-bottom: 50px;
+        }
+
+        #ve2 {
+            height: 80px !important;
+            margin-bottom: 30px;
+        }
+
+
+
+        @media(max-width:768px) {
+
+            .cols {
+                display: grid;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 0;
+            }
+
+            .cols div {
+                text-align: center;
+                padding: 30px;
+                margin: 30px;
+                border-radius: 20px;
+                border: 1px solid #d9d9d9;
+                box-shadow: 10px 10px 15px #787878;
+            }
+
+        }
+
+    </style>
     <div class="container">
-        <div class="row">
-            <h2>Work Experience</h2>
-            <hr>
+        <h2>Work Experience</h2>
 
-            <div class="cols">
+        <hr>
 
-                <div class="column">
-                    <a href="https://www.mabs.ie/en/"  target="_blank" ><img src="/img/mabs.jpg" id="card1" alt="Money advice and budgeting"></a>
+        <div class="cols">
 
-                    <h3 style="text-align: center">Android Full stack Developer</h3>
-                    <ul>
-                        <li> Developed an Android based application for budgeting services.</li>
-                        <li> Integrated with hands - free control and Dijkstra's algorithm</li>
-                        <li> Different path algorithms for increased efficiency and application speed.</li>
-                        <li> Wide and real time database for product management.</li>
-                        <li> Only developer on the application.</li>
-                    </ul>
+            <div class="column">
+                <a href="https://www.mabs.ie/en/"  target="_blank" ><img src="/img/mabs.jpg" id="card1" alt="Money advice and budgeting"></a>
 
-                </div>
+                <h3 style="text-align: center">Android Full stack Developer</h3>
+                <ul>
+                    <li> Developed an Android based application for budgeting services.</li>
+                    <li> Integrated with hands - free control and Dijkstra's algorithm</li>
+                    <li> Different path algorithms for increased efficiency and application speed.</li>
+                    <li> Wide and real time database for product management.</li>
+                    <li> Only developer on the application.</li>
+                </ul>
 
-                <div class="column">
-                    <a href="http://www.teradev.ie/" target="_blank" ><img src="/img/td.png" id="ve2" alt="TeraDev"> </a>
+            </div>
 
-                    <h3 style="text-align: center">Junior Web Developer</h3>
-                    <ul>
-                        <li> Worked with on front end development with Angular Js and Ruby JS.</li>
-                        <li> Used several different frameworks, such as Angular JS 2, Java EE.</li>
-                        <li> Helped to debug the web platform - finding bugs, flaws and refurbishing.</li>
-                        <li> Applied different algorithms for more efficient and faster web-based application </li>
-                        <li> Managed systems for business support solutions application.</li>
-                    </ul>
+            <div class="column">
+                <a href="http://www.teradev.ie/" target="_blank" ><img src="/img/td.png" id="ve2" alt="TeraDev"> </a>
 
-                </div>
+                <h3 style="text-align: center">Junior Web Developer</h3>
+                <ul>
+                    <li> Worked with on front end development with Angular Js and Ruby JS.</li>
+                    <li> Used several different frameworks, such as Angular JS 2, Java EE.</li>
+                    <li> Helped to debug the web platform - finding bugs, flaws and refurbishing.</li>
+                    <li> Applied different algorithms for more efficient and faster web-based application </li>
+                    <li> Managed systems for business support solutions application.</li>
+                </ul>
+
+            </div>
 
 
-                <div class="column">
-                    <a href="https://www.visionexpress.ie/"  target="_blank" ><img src="/img/ve.png" id="ve" alt="Vision Express"></a>
+            <div class="column">
+                <a href="https://www.visionexpress.ie/"  target="_blank" ><img src="/img/ve.png" id="ve" alt="Vision Express"></a>
 
-                    <h3 style="text-align: center">Optical assistant</h3>
-                    <ul>
-                        <li> Mastered general administrative duties, while dispensing bespoke optical aids for clients.</li>
-                        <li> Achieved silver level in optical dispensing. </li>
-                        <li> Gained high communication and customer service understanding. </li>
-                        <li> Managed one to one contact lens tutorials and consultations. </li>
-                        <li> Mentored and trained junior colleagues. </li>
-                    </ul>
-
-                </div>
+                <h3 style="text-align: center">Optical assistant</h3>
+                <ul>
+                    <li> Mastered general administrative duties, while dispensing bespoke optical aids for clients.</li>
+                    <li> Achieved silver level in optical dispensing. </li>
+                    <li> Gained high communication and customer service understanding. </li>
+                    <li> Managed one to one contact lens tutorials and consultations. </li>
+                    <li> Mentored and trained junior colleagues. </li>
+                </ul>
 
             </div>
 
         </div>
+
     </div>
 </section>
