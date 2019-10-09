@@ -6,7 +6,7 @@
 
     </head>
     <body id="page-top">
-        {{ if or .Site.Params.navigation.links.about .Site.Params.navigation.links.services .Site.Params.navigation.links.portfolio .Site.Params.navigation.links.contact }}
+        {{ if or .Site.Params.navigation.links.about .Site.Params.navigation.links.work .Site.Params.navigation.links.services .Site.Params.navigation.links.portfolio .Site.Params.navigation.links.contact }}
             {{ partial "nav.html" . }}
         {{ end }}
 
@@ -18,8 +18,8 @@
             {{ partial "about.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.contact }}
-            {{ partial "contact.html" . }}
+        {{ if .Site.Params.work }}
+            {{ partial "work.html" . }}
         {{ end }}
 
         {{ if .Site.Params.services.list }}
@@ -34,8 +34,8 @@
             {{ partial "location.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.aside }}
-            {{ partial "aside.html" . }}
+        {{ if .Site.Params.contact }}
+            {{ partial "contact.html" . }}
         {{ end }}
 
         {{ if .Site.Data.projects }}

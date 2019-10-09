@@ -1,30 +1,26 @@
 {{ "<!-- HEADER -->" | safeHTML }}
 
 <header>
+	
+   	<div class="overlay" hidden></div>
+	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-
-    <div class="header-content">
-
-
-
+    <div class="header-content" >
 
         <div class="header-content-inner" >
             {{ with .Site.Params.hero.slogan }}
-
-
-            <img class="my-avatar" src="avatar.jpg" alt="Avatar of Gelmis"/>
-
-
-            <h1>{{ . | markdownify  }}</h1>
-
-
+			
+            <img class="my-avatar" src="avatar1.jpg" alt="Avatar of Gelmis"/>
+            <h1 id="welcomeSlogan">{{ . | markdownify  }}</h1>
+			
+			<h3>Web &amp; Android Developer </h3>
 
                 {{ end }}
 
                 {{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle }}
 
-                    <hr>
+				<hr>
 
                 {{ end }}
 
@@ -33,13 +29,14 @@
                 {{ end }}
 
         </div>
-            <div class="social-links" style="margin-bottom: 5%;">
-                {{ partial "social.html" . }}
-            </div>
 
-            {{ with .Site.Params.hero.buttonText }}
-            <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ . }}</a>
-            {{ end }}
+		<div class="social-links pulsate-fwd " style="margin-bottom: 5%;">
+			{{ partial "social.html" . }}
+		</div>
+
+		{{ with .Site.Params.hero.buttonText }}
+		<a href="#about" class="btn btn-primary btn-xl page-scroll">{{ . }}</a>
+		{{ end }}
 
     </div>
 
@@ -47,25 +44,22 @@
 
 
 <style>
+	header{
+		position: relative;
+		min-height: 100%;
+		width:100%;
+		height:auto !important;
+		background-size: cover;
+		overflow:hidden;
+	}
 
-    header{
-        position: relative;
-        min-height: 100%;
-        width:100%;
-        height:auto !important;
-        background: url("/img/back2.jpg") no-repeat fixed;
-        background-size: cover;
-        overflow:hidden;
-    }
-
-    header .header-container{
-        bottom: 0px;
-        height: 100%;
-        width: 100%;
-        min-height: 100%;
-    }
-
-   </style>
+	header .header-container{
+		bottom: 0px;
+		height: 100%;
+		width: 100%;
+		min-height: 100%;
+	}
+</style>
 
 
 

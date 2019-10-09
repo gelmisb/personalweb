@@ -1,0 +1,191 @@
+{{ "<!-- WORK -->" | safeHTML }}
+<section id="work" >
+
+    <style type="text/css">
+
+        #work{
+            background-color: #fff;
+            color: #2d2d2d;
+        }
+
+        #work h2 {
+            text-align: center;
+            font-weight: 600;
+            padding: 0;
+        }
+
+
+
+        .cols {
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0;
+        }
+
+        .cols div {
+            flex: 1;
+            text-align: center;
+            padding: 30px;
+            margin: 30px;
+            border-radius: 10px;
+            border: 1px solid #d9d9d9;
+            box-shadow: 10px 10px 15px #787878;
+            display: block;
+        }
+
+        #work .container hr {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+            margin-top: 0;
+            padding-top: 0;
+        }
+
+
+
+        .cols div img {
+            width: 275px;
+            height: 100px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #card1 {
+            border-radius: 50px;
+            box-shadow: 5px 5px 50px #fff;
+        }
+
+        .cols div h3 {
+            text-align: justify;
+            margin: 20px 0;
+
+        }
+
+        .cols ul {
+            text-align: justify;
+            list-style-type: none;
+        }
+
+        .cols ul li {
+            margin-bottom: 15px;
+        }
+        #ve {
+            height: 60px !important;
+            margin-bottom: 50px;
+        }
+
+        #ve2 {
+            height: 80px !important;
+            margin-bottom: 30px;
+        }
+
+
+
+        @media(max-width:768px) {
+
+            .cols {
+                display: grid;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 0;
+            }
+
+            .cols div {
+                text-align: center;
+                padding: 30px;
+                margin: 30px;
+                border-radius: 20px;
+                border: 1px solid #d9d9d9;
+                box-shadow: 10px 10px 15px #787878;
+            }
+
+        }
+
+    </style>
+    <div class="container">
+		<h2>{{ .Site.Params.work.headline }}</h2>
+
+        <hr>
+
+<section class="cards-wrapper">
+ 
+
+	
+		
+  <div class="card-grid-space">
+    <div class="num">TeraDev</div>
+    <a class="card" href="http://www.teradev.ie/" style="--bg-img: url('/img/td.png')" target="_blank">
+      <div>
+        <h1>Junior Web Developer</h1>
+          <ul>
+            <li> Worked with on front end development with Angular Js and Ruby JS.</li>
+			<li> Helped to debug the web platform &ndash; finding bugs, flaws and refurbishing.</li>
+			<li> Applied different algorithms for more efficient and faster web-based application </li>
+			<li> Managed systems for business support solutions application.</li>
+		  </ul>
+		  <div class="date">2017</div>
+        <div class="tags">
+          <div class="tag">RubyJS</div>
+          <div class="tag">HTML</div>
+          <div class="tag">CSS</div>
+		  <div class="tag">jQuery</div>
+        </div>
+      </div>
+    </a>
+  </div>
+	
+	
+  <div class="card-grid-space">
+    <div class="num">MABS</div>
+    <a class="card" href="https://www.mabs.ie/en/" style="--bg-img: url('/img/mabs.jpg')" target="_blank">
+      <div>
+        <h1>Android Developer</h1>
+		  <ul>
+			<li> Developed an Android application for financing.</li>
+			<li> Integrated with hands &ndash; free control and Dijkstra's algorithm</li>
+			<li> Responsive screen for different types of devices</li>
+			<li> Wide and real time database for product management.</li>
+			<li> Only developer on the application.</li>
+		  </ul>
+		  <div class="date">2018</div>
+        <div class="tags">
+          <div class="tag">Java</div>
+          <div class="tag">MySQL</div>
+          <div class="tag">XML</div>
+          <div class="tag">JS</div>
+        </div>
+      </div>
+    </a>
+  </div>
+	
+	<div class="card-grid-space">
+    <div class="num">Wipro</div>
+    <a class="card" href="https://www.wipro.com/" style="--bg-img: url(/img/logo_color.png)" target="_blank">
+      <div>
+        <h1>Project Engineer</h1>
+		  <ul>
+			<li> Developed an Android based application for budgeting services.</li>
+			<li> Lead developer of a robust resource management platform.</li>
+			<li> Managed the projects</li>
+			<li> Developed Android, Web and Hybrid applications as full&ndash;stack developer. </li>
+			<li> orked with different teams in collaboration on projects based on different technologies</li>
+		  </ul>
+        <div class="date">Feb 2019 &ndash; Current</div>
+        <div class="tags">
+          <div class="tag">JS</div>
+          <div class="tag">Angular7</div>
+          <div class="tag">JavaEE</div>
+          <div class="tag">Android</div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+	
+</section>
+		
+    </div>
+</section>
+

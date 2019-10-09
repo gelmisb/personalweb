@@ -31,97 +31,87 @@
             <h2 class="section-heading">I work in different environments</h2>
             <hr class="primary"  style="text-align: center !important; align-content: center; margin-left: 48%">
         </div>
+			<div class="container">
+				<div class="row">
+					{{ range .Site.Params.services.list2 }}
+					<div class="col-lg-3 col-md-6 text-center">
+						<div class="service-box">
+							<i class="fa fa-4x {{ .icon }} wow bounceIn text-primary"></i>
+							<h3>{{ .title }}</h3>
+							{{ with .description }}
+							<p class="text-muted">{{ . }}</p>
+							{{ end }}
+						</div>
+					</div>
+					{{ end }}
+				</div>
 
-        <div class="container">
-            <div class="row">
-                {{ range .Site.Params.services.list2 }}
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x {{ .icon }} wow bounceIn text-primary"></i>
-                        <h3>{{ .title }}</h3>
-                        {{ with .description }}
-                        <p class="text-muted">{{ . }}</p>
-                        {{ end }}
-                    </div>
-                </div>
-                {{ end }}
-            </div>
+				<style>
+					.progress-bar {
+						background-color: #404040;
+					}
 
+				</style>
 
-            <style>
-                .progress-bar {
-                    background-color: #404040;
-                }
+				<div class="col-lg-12 text-center headline-services">
+					<h2 class="section-heading">Skill-set</h2>
+					<hr class="primary"  style="text-align: center !important; align-content: center; margin-left: 48%">
+				</div>
 
-            </style>
+				<ul class="skill-bar">
 
+					<li>
+						<p><span></span>Java</p>
+						<div class="progress">
+							<div class="progress-bar progress-bar-success pb1" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+								85%
+							</div>
+						</div>
+					</li>
 
+					<li>
+						<p><span></span>C# / .Net </p>
+						<div class="progress">
+							<div class="progress-bar progress-bar-success pb2" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:25%">
+								25%
+							</div>
+						</div>
+					</li>
 
-            <div class="col-lg-12 text-center headline-services">
-                <h2 class="section-heading">Skill-set</h2>
-                <hr class="primary"  style="text-align: center !important; align-content: center; margin-left: 48%">
-            </div>
+					<li>
+						<p><span></span>JavaScript, AngularJS </p>
+						<div class="progress">
+							<div class="progress-bar progress-bar-success pb3" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+								85%
+							</div>
+						</div>
+					</li>
 
+					<li>
+						<p><span></span>Android</p>
+						<div class="progress">
+							<div class="progress-bar progress-bar-success pb4" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+								100%
+							</div>
+						</div>
+					</li>
 
-            <ul class="skill-bar">
+					<li>
+						<p><span></span>Python</p>
+						<div class="progress">
+							<div class="progress-bar progress-bar-success pb5" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+								65%
+							</div>
+						</div>
+					</li>
 
+					<script>
+						$(".pb1").animate({
+							width: "90%"
+						}, 2000);
+					</script>
 
-
-                <li>
-                    <p><span></span>Java / Kotlin</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success pb1" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                            90%
-                        </div>
-                    </div>
-                </li>
-
-                <li>
-                    <p><span></span>C# / .Net </p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success pb2" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-                            40%
-                        </div>
-                    </div>
-                </li>
-
-                <li>
-                    <p><span></span>JavaScript</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success pb3" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-                            85%
-                        </div>
-                    </div>
-                </li>
-
-                <li>
-                    <p><span></span>PHP</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success pb4" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                            80%
-                        </div>
-                    </div>
-                </li>
-
-                <li>
-                    <p><span></span>Python</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success pb5" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:65%">
-                            65%
-                        </div>
-                    </div>
-                </li>
-
-
-                <script>
-
-                        $(".pb1").animate({
-                            width: "90%"
-                        }, 2000)
-
-
-                </script>
-
-        </ul>
+			</ul>
+		</div>
     </div>
 </section>

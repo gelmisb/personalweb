@@ -3,6 +3,7 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
 
 html,
 body {
@@ -79,6 +80,12 @@ p {
 
 .text-faded {
     color: rgba(255,255,255,.7);
+}
+
+#story {
+/*	border: 2px solid #e7e7e7;*/
+	text-align: justify;
+	font-size: 1em !important;
 }
 
 section {
@@ -194,7 +201,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    /*background-image: url(../img/back2.jpg);*/
+    background-image: url(../img/backy4.jpg) !important;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -418,7 +425,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary {
     border-color: #f05f40;
     color: #fff;
-    background-color: #0079ae;
+    background-color: #333;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -432,7 +439,7 @@ fieldset[disabled] .btn-default.active {
 .open > .dropdown-toggle.btn-primary {
     border-color: #ed431f;
     color: #fff;
-    background-color: #005189;
+    background-color: #15191a;
 }
 
 .btn-primary:active,
@@ -508,8 +515,8 @@ body {
 
 
 #contact{
-    background-color: #fff;
-    color: #2d2d2d;
+    background-color: #15191a;
+    color: #fff;
 }
 
 #contact h2 {
@@ -610,9 +617,9 @@ body {
 
 
 .my-avatar {
-    width:30%;
-    border-radius: 100%;
-    box-shadow: 10px 10px 20px #000;
+    width: 15vw;
+    border-radius: 50%;
+    box-shadow:0px 0px 50px #000;
     margin-bottom: 20px;
 }
 
@@ -653,4 +660,417 @@ body {
 
 .modal {
     color: #2d2d2d;
+}
+
+
+.header-content-inner h1, .header-content-inner h3 {
+	color: #fff;
+	text-align: center;
+	margin: 0 !important;
+/*	background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(34,34,34,0.85) 30%, rgba(34,34,32,0.8603816526610644) 70%, rgba(0,212,255,0) 100%);  */
+	background: rgb(34,34,34);
+	background: -moz-linear-gradient(90deg, rgba(34,34,34,0) 0%, rgba(34,34,34,0.75) 30%, rgba(24,24,24,1) 50%, rgba(34,34,34,0.75) 70%, rgba(34,34,34,0) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(34,34,34,0) 0%, rgba(34,34,34,0.75) 30%, rgba(24,24,24,1) 50%, rgba(34,34,34,0.75) 70%, rgba(34,34,34,0) 100%);
+	background: linear-gradient(90deg, rgba(34,34,34,0) 0%, rgba(34,34,34,0.75) 30%, rgba(24,24,24,1) 50%, rgba(34,34,34,0.75) 70%, rgba(34,34,34,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#222222",endColorstr="#222222",GradientType=1);
+	font-size: 3em !important;
+	margin-bottom: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.header-content-inner h3 {
+	font-size: 1.5em !important;
+	margin-top: 0 !important;
+	padding-top: 0 !important;
+}
+
+
+
+/* center the blockquote in the page */
+.blockquote-wrapper {
+   display: flex;
+   height: auto;
+   padding: 0 20px;
+	margin-top: 0 !important;
+	padding-top: 0 !important;
+}
+
+/* Blockquote main style */
+.blockquote {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #ffffff;
+    padding: 30px 0;
+    width: 100%;
+    max-width: 500px;
+    z-index: 1;
+    margin: 80px auto;
+    align-self: center;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+		margin-top: 0 !important;
+}
+
+/* Blockquote header */
+.blockquote h1 {
+    position: relative;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1;
+    margin: 0;
+}
+
+/* Blockquote right double quotes */
+.blockquote:after {
+    position: absolute;
+    content: "”";
+    color: rgba(255, 255, 255, 1);
+    font-size: 10rem;
+    line-height: 0;
+    bottom: -43px;
+    right: 30px;
+}
+
+/* increase header size after 600px */
+@media all and (min-width: 600px) {
+    .blockquote h1 {
+        font-size: 60px;
+   }
+
+}
+
+/* Blockquote subheader */
+.blockquote h4 {
+    position: relative;
+    color: #e6e6e6;
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+#insideQuote {
+	color: #ff8000;
+	font-weight: 600;
+}
+
+
+
+
+:root {
+  --color: #3c3163;
+  --transition-time: 0.5s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+/*  font-family: 'Open Sans';*/
+  background: #fafafa;
+}
+
+a {
+  color: inherit;
+}
+
+.cards-wrapper {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4rem;
+  padding: 4rem;
+  margin: 0 auto;
+  width: max-content;
+}
+
+.card {
+/*  font-family: 'Heebo';*/
+  --bg-filter-opacity: 0.7;
+  background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
+  height: 20em;
+  width: 15em;
+  font-size: 1.5em;
+  color: white;
+  border-radius: 1em;
+  padding: 1.5em;
+  /*margin: 2em;*/
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5em -1em black;
+  transition: all, 0.35s;
+  position: relative;
+  overflow: hidden;
+  border: 10px solid #ccc;
+  text-decoration: none;
+	background-position: center; 
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+
+
+.card-grid-space ul li {
+	font-size: 0.65em;
+	
+}
+
+.card:hover {
+  transform: rotate(0);
+	text-decoration: none !important;
+}
+
+.card h1 {
+  margin: 0;
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+
+.card p {
+  font-size: 0.75em;
+  margin-top: 0.5em;
+  line-height: 2em;
+}
+
+.card .tags {
+  display: flex;
+}
+
+.card .tags .tag {
+  font-size: 0.75em;
+  background: rgba(255,255,255,0.8);
+  border-radius: 0.3rem;
+  padding: 0 0.5em;
+  margin-right: 0.5em;
+  line-height: 1.5em;
+  transition: all, 0.35s;
+}
+
+.card:hover .tags .tag {
+  background: #ff8000;
+  color: white;
+}
+
+.card .date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.75em;
+  padding: 1em;
+  line-height: 1em;
+  opacity: .8;
+}
+
+.card:before, .card:after {
+  content: '';
+  transform: scale(0);
+  transform-origin: top left;
+  border-radius: 50%;
+  position: absolute;
+  left: -50%;
+  top: -50%;
+  z-index: -5;
+  transition: all,0.35s;
+  transition-timing-function: ease-in-out;
+}
+
+.card:before {
+  background: #ddd;
+  width: 250%;
+  height: 250%;
+}
+
+.card:after {
+  background: white;
+  width: 200%;
+  height: 200%;
+}
+
+.card:hover {
+  color: #333;
+}
+
+.card:hover:before, .card:hover:after {
+  transform: scale(1);
+}
+
+.card-grid-space .num {
+  font-size: 3em;
+  margin-bottom: 1.2rem;
+  margin-left: 1rem;
+}
+
+.info {
+  font-size: 1.2em;
+  display: flex;
+  padding: 1em 3em;
+  height: 3em;
+}
+
+.info img {
+  height: 3em;
+  margin-right: 0.5em;
+}
+
+.info h1 {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1285px) {
+  .cards-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .cards-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .info {
+    justify-content: center;
+  }
+  .card-grid-space .num {
+    /margin-left: 0;
+    /text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cards-wrapper {
+    padding: 4rem 2rem;
+  }
+  .card {
+    max-width: calc(100vw - 4rem);
+  }
+}
+
+@media screen and (max-width: 450px) {
+	.info {
+		display: block;
+		text-align: center;
+	}
+	.info h1 {
+		margin: 0;
+	}
+	
+	.my-avatar {
+		width: 50%;
+		border-radius: 50%;
+		box-shadow:0px 0px 50px #000;
+		margin-bottom: 20px;
+	}
+
+	.header-content-inner h1 {
+		font-size: 2em !important;
+	}
+	
+	.header-content-inner h3 {
+		font-size: 1em !important;
+	}
+}
+
+
+
+.social-links {
+	text-shadow: 1px 1px 4px #444;
+	background: linear-gradient(90deg, rgba(34,34,34,0) 0%, rgba(34,34,34,0.75) 30%, rgba(24,24,24,1) 50%, rgba(34,34,34,0.75) 70%, rgba(34,34,34,0) 100%);
+	width: 25%;
+	margin: 0 auto;
+}
+
+.social-links a {
+	text-decoration: none !important;
+}
+
+.skill-bar {
+	list-style-type: none;
+}
+
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: rgba(0,0,0,0.9); /*dim the background*/
+}
+
+
+
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }

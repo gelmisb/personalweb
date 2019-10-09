@@ -8,7 +8,7 @@ googleAnalytics = ""
 
 
 	name = "Gelmis Bartulis"
-	description = "Software developer"
+	description = "UI, UX and Back-End Web, Android and Software developer"
 
 	# The path must be relative to the static folder
 	favicon = "favicon.png"
@@ -20,22 +20,26 @@ googleAnalytics = ""
 
 		[params.navigation.links]
 			about     = "About"
-			services  = "Work"
+			work      = "Work"
+			services  = "Character"
 			portfolio = "Portfolio"
 			contact   = "Contact"
-
 
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'back2.jpg' at './static/img' with your own.
-		slogan     = "Hi, I'm Gelmis."
+		slogan     = "Hi, I'm Gelmis"
 		subtitle   = "a"
-		buttonText = "More"
+		buttonText = "Story time"
+		
+	[params.work]
+		headline    = "Work Experience"
+
 
     [params.social]
         GitHub = "gelmisb"
         LinkedIn = "gelmisb"
-        Instagram = "thegsb"
+        Instagram = "gelmis.b"
         Email   = "gelmis.bartulis@gmail.com"
         Facebook = "gbartulis"
 
@@ -43,7 +47,7 @@ googleAnalytics = ""
 	[params.about]
 		headline    = "We"
 		description = "[Lorem]"
-		buttonText  = "Details"
+		buttonText  = "Work"
 
 
 
@@ -106,7 +110,6 @@ googleAnalytics = ""
 	[params.contact]
 		headline = "Let's Get In Touch!"
 		description = "Let me know if you would like to work on any project or would like to get in touch!"
-		phone = "+353 89 493 9050 "
 		email = "gelmis.bartulis@gmail.com"
 
 		[params.aside.button]
