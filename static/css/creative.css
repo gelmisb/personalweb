@@ -749,8 +749,8 @@ body {
 }
 
 .progress.active .progress-bar {
-	-webkit-transition: none !important;
-	transition: none !important;
+	-webkit-transition: all .35s ease-in-out !important;
+	transition: all .35s ease-in-out  !important;
 }
 .headline-services {
 	margin-top: 100px;
@@ -1204,7 +1204,6 @@ a {
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
  .tab {
-/*	 padding-top: 50px;*/
 	 margin-bottom: 20px;
 	 position: relative;
 	 overflow: hidden;
@@ -1214,9 +1213,7 @@ a {
 	 line-height: 1.5;
 	 font-weight: 300;
 	 color: #333;
-	 -webkit-font-smoothing: antialiased;
 }
-
 
  .tabs {
 	 display: inline-flex;
@@ -1246,6 +1243,13 @@ a {
 	 transition: all 0.2s ease-in-out;
 	 border-bottom: 2px solid transparent;
 	 margin: 0 20%;
+	 white-space: nowrap;
+	 border-radius: 5px;
+}
+
+.tabs a:hover {
+	color: #f2765a;
+	background: rgba(51,51,51,0.7);
 }
  .tabs_item {
 	 display: none;
@@ -1253,7 +1257,7 @@ a {
 }
  .tabs_item h4 {
 	 font-weight: bold;
-	 color: #337ab7;
+	 color: #e7e7e7;
 	 font-size: 20px;
 }
  .tabs_item img {
@@ -1268,4 +1272,19 @@ a {
 	 color: #fff;
 	 border-bottom: 2px solid #f2765a;
 }
+
+.tabs #conf {
+	color: #ee4e2b;
+	float: right;
+}
  
+
+.progress-bar  {
+	background: inherit;
+ 	transition: all 0.35s ease-in-out;
+}
+
+.progress-bar:hover {
+	background: rgba(240, 98, 66, 0.8);
+ 	transition: all 0.35s ease-in-out;
+}
