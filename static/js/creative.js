@@ -51,6 +51,11 @@
 
 $( document ).ready(function() {
 	
+	$('.overlay').fadeIn(3000).delay(1000);
+	$('.social-links').css('background', 'transparent').delay(1000);;
+	$('.header-content-inner h1').css('background', 'transparent').fadeIn("fast").delay(1000);;
+	$('.header-content-inner h3').css('background', 'transparent').fadeIn("fast").delay(1000);;
+	
 	var _MS_PER_DAY = 1000 * 60 * 60 * 24 * 365;
 
 	function dateDiffInDays(a, b) {
@@ -100,6 +105,12 @@ $( document ).ready(function() {
 	});
 	
 	
+});
+
+
+$(window).load(function () {
+    // Animate loader off screen
+    $(".gooeyHolder").fadeOut("fast");
 });
 
 
