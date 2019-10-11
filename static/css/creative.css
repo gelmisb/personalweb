@@ -1,3 +1,21 @@
+.preload-images {
+  display: none; 
+  width: 0;
+  height: 0;
+  background: url(../img/backy4.jpg),
+			  url(../avatar1.jpg),
+			  url(../img/backy4.jpg),
+			  url(../img/MABS1.jpg),
+			  url(../img/td1.jpg),
+			  url(../img/portfolio/asistant.jpg),
+			  url(../img/portfolio/mabs.jpg),
+			  url(../img/portfolio/project5.jpg),
+			  url(../img/portfolio/project6.jpg),
+			  url(../img/portfolio/spc.jpg),
+			  url(../img/portfolio/zamuzai.jpg),
+			  url(../img/logo_color.png);
+}
+
 .gooeyHolder {
 	z-index: 9999;
 	width: 100vw;
@@ -102,23 +120,6 @@ svg {
 @import url('https://fonts.googleapis.com/css?family=Special+Elite');
 
 
-.preload-images {
-  display: none; 
-  width: 0;
-  height: 0;
-  background: url(../img/backy4.jpg),
-			  url(../avatar1.jpg),
-			  url(../img/backy4.jpg),
-			  url(../img/MABS1.jpg),
-			  url(../img/td1.jpg),
-			  url(../img/portfolio/asistant.jpg),
-			  url(../img/portfolio/mabs.jpg),
-			  url(../img/portfolio/project5.jpg),
-			  url(../img/portfolio/project6.jpg),
-			  url(../img/portfolio/spc.jpg),
-			  url(../img/portfolio/zamuzai.jpg),
-			  url(../img/logo_color.png);
-}
 
 html,
 body {
@@ -392,6 +393,7 @@ header .header-content .header-content-inner p {
 		margin: 20px auto 0;
 	}
 }
+
 
 .service-box p {
 	margin-bottom: 0;
@@ -923,7 +925,7 @@ a {
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5em -1em black;
-  transition: all, 0.35s;
+  transition: all, 0.7s;
   position: relative;
   overflow: hidden;
   border: 10px solid #ccc;
@@ -937,7 +939,7 @@ a {
 
 .card-grid-space ul li {
 	font-size: 0.65em;
-
+	padding-bottom: 5%;
 }
 
 .card:hover {
@@ -961,6 +963,10 @@ a {
   display: flex;
 }
 
+
+.card ul {
+	list-style-type: none;
+}
 .card .tags .tag {
   font-size: 0.75em;
   background: rgba(255,255,255,0.8);
@@ -995,7 +1001,7 @@ a {
   left: -50%;
   top: -50%;
   z-index: -5;
-  transition: all,0.35s;
+  transition: all,0.7s;
   transition-timing-function: ease-in-out;
 }
 
@@ -1280,11 +1286,15 @@ a {
  
 
 .progress-bar  {
-	background: inherit;
+	background: #404040;
  	transition: all 0.35s ease-in-out;
 }
 
 .progress-bar:hover {
 	background: rgba(240, 98, 66, 0.8);
  	transition: all 0.35s ease-in-out;
+}
+
+#services {
+	background: #15191a !important;
 }
