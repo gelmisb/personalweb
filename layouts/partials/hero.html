@@ -1,33 +1,36 @@
 {{ "<!-- HEADER -->" | safeHTML }}
 
 <header>
-	
+
+
    	<div class="overlay" hidden></div>
 	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
 
-    <div class="header-content" >
+    <div class="header-content" ><div id="particles-js"></div>
 
         <div class="header-content-inner" >
             {{ with .Site.Params.hero.slogan }}
 			
-            <img class="my-avatar" src="avatar1.jpg" alt="Avatar of Gelmis"/>
-            <h1 id="welcomeSlogan">{{ . | markdownify  }}</h1>
-			
+			<img class="my-avatar" src="avatar1.jpg" alt="Avatar of Gelmis"/>
+
+			<h1 id="welcomeSlogan">{{ . | markdownify  }}</h1>
+
 			<h3>Web &amp; Android Developer </h3>
 
-                {{ end }}
+				{{ end }}
 
-                {{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle }}
+				{{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle }}
 
 				<hr>
 
-                {{ end }}
+				{{ end }}
 
-                {{ with .Site.Params.hero.subtitle }}
+				{{ with .Site.Params.hero.subtitle }}
 
-                {{ end }}
-
+				{{ end }}
+			
         </div>
 
 		<div class="social-links pulsate-fwd " style="margin-bottom: 5%;">
