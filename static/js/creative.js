@@ -105,20 +105,11 @@ $( document ).ready(function() {
 		}, 80);
 	});
 	
-	
-	
-	$(".headerH1").addClass("tracking-in-contract-bck").delay(2000).queue(function(){
-		$(this).removeClass("tracking-in-contract-bck").dequeue();
-		$(this).addClass("blur-out-contract").hide(2000);
-		$('.header-content-inner').addClass("tracking-in-contract-bck").fadeIn(2000);
-	});
 });
 
 
 $(document).ready(function() { 
 	
-	
-
 	(function ($) { 
 		$('.tab ul.tabs').addClass('active').find('> li:eq(0)').addClass('current');
 		

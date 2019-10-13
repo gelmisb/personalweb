@@ -1117,26 +1117,16 @@ background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,
 
 
 .social-links {
-	text-shadow: 1px 1px 4px #444;
-	background: linear-gradient(90deg, rgba(34,34,34,0) 0%, rgba(34,34,34,0.75) 30%, rgba(24,24,24,1) 50%, rgba(34,34,34,0.75) 70%, rgba(34,34,34,0) 100%);
-	width: 25%;
-	  box-shadow: 5px 3px 30px #000;
-	border-radius: 5px;
-	content: '';	
-	margin: 0 auto;
-	  background: hsla(0,0%,100%,.5);
+    text-shadow: 1px 1px 4px #444;
+    background: linear-gradient(90deg, rgba(34,34,34,0) 0%, rgba(34,34,34,0.75) 30%, rgba(24,24,24,1) 50%, rgba(34,34,34,0.75) 70%, rgba(34,34,34,0) 100%);
+    width: 25%;
+    box-shadow: 5px 3px 30px #000;
+    border-radius: 5px;
+    content: '';	
+    margin: 0 auto;
+    background: hsla(0,0%,100%,.5);
+}
 
-}
-.social-links:before{
-content: '';
-  margin: -35px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  filter: blur(20px);
-}
 .social-links a {
 	text-decoration: none !important;
 }
@@ -1228,10 +1218,6 @@ content: '';
 
 
 
-
-
-
-
 /*/assssssssssssssssssssssssssssssssssssssssssssssssssssss*/
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
@@ -1283,24 +1269,29 @@ content: '';
 	color: #f2765a;
 	background: rgba(51,51,51,0.7);
 }
- .tabs_item {
+
+.tabs_item {
 	 display: none;
 	 padding: 30px 0;
 }
- .tabs_item h4 {
+
+.tabs_item h4 {
 	 font-weight: bold;
 	 color: #e7e7e7;
 	 font-size: 20px;
 }
- .tabs_item img {
+
+.tabs_item img {
 	 width: 200px;
 	 float: left;
 	 margin-right: 30px;
 }
- .tabs_item:first-child {
+
+.tabs_item:first-child {
 	 display: block;
 }
- .current a {
+
+.current a {
 	 color: #fff;
 	 border-bottom: 2px solid #f2765a;
 }
@@ -1310,7 +1301,6 @@ content: '';
 	float: right;
 }
  
-
 .progress-bar  {
 	background: #404040;
  	transition: all 0.35s ease-in-out;
